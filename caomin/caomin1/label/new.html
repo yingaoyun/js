@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>{$maccms.site_name}-最近更新</title>
+	<meta name="keywords" content="{$maccms.site_keywords}" />
+	<meta name="description" content="{$maccms.site_description}" />
+	{include file="public/include"}
+<body>
+{include file="public/head"}
+<div class="wrap">
+	<div class="main">
+	<div class="ui-top-tab-item">
+		<div class="top-list-top"><span class="tit">影片名</span><span class="soulu">类型</span><span class="score">日期</span>
+		</div>
+		<ul id="contents" class="top-list-detail">
+			{maccms:vod num="500" type="all" order="desc" by="time"}  
+			<li><span class="num stress">{$key}.</span><span class="tit"><a href="{:mac_url_vod_detail($vo)}" target="_blank">{$vo.vod_name} </a></span><span class="type">{$vo.type.type_name}</span><span class="score">{$vo.vod_time|date='m-d',###}</span>
+			</li>
+				{/maccms:vod}
+			</ul>
+	</div>
+	</div>
+<div class="clear"></div>
+</div>
+{include file="public/foot"}           <!-- 底部文件-->
+</body>

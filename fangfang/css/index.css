@@ -1,0 +1,109 @@
+
+.v-index {
+    overflow: hidden;
+}
+.v-index .v-plate {
+    margin-top: 10px;
+    overflow: hidden;
+}
+.v-index .v-plate .v-left {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    float: left;
+    overflow: hidden;
+    width: 730px;
+}
+.v-index .v-plate .v-left ul {
+    overflow: hidden;
+}
+.v-index .v-plate .v-left ul li {
+    float: left;
+    margin: 8px;
+    position: relative;
+    width: 130px;
+}
+.v-index .v-plate .v-left ul li img {
+    display: block;
+    height: 175px;
+    width: 130px;
+}
+.v-index .v-plate .v-left ul li p {
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: center;
+}
+.v-index .v-plate .v-left ul li span {
+    color: #999999;
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.v-index .v-plate .v-left ul li em {
+    background: #000000 none repeat scroll 0 0;
+    color: #ffffff;
+    display: block;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    opacity: 0.7;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 150px;
+    width: 100%;
+}
+.v-index .v-plate .v-right {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    float: right;
+    overflow: hidden;
+    width: 280px;
+}
+.v-index .v-plate .v-right ul {
+    overflow: hidden;
+}
+.v-index .v-plate .v-right ul li {
+    border-bottom: 1px dotted #cccccc;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.v-index .v-plate .v-right ul li a {
+    font-size: 12px;
+}
+.v-index .v-plate .v-right ul li em {
+    color: #000000;
+    float: left;
+    font-size: 12px;
+    padding-right: 5px;
+}
+.v-index .v-plate .v-right ul li span {
+    color: #999999;
+    float: right;
+    font-size: 12px;
+}
+.v-index .v-link {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.v-index .v-link ul {
+    overflow: hidden;
+    padding: 5px 10px;
+}
+.v-index .v-link ul li {
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    width: 10%;
+}
+.v-index .v-link ul li a {
+    font-size: 12px;
+}

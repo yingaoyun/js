@@ -1,0 +1,275 @@
+
+html {
+    background: #ffffff none repeat scroll 0 0;
+}
+blockquote, body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+fieldset, img {
+    border: 0 none;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: 400;
+}
+li, ol, ul {
+    list-style: outside none none;
+}
+caption, th {
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+}
+q::after, q::before {
+    content: "";
+}
+abbr, acronym {
+    border: 0 none;
+}
+body {
+    color: #ffffff;
+    font-family: "Microsoft YaHei",Arial;
+    font-size: 10px;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+a:link {
+    color: #333333;
+    outline: medium none;
+}
+a:visited {
+    color: #333333;
+}
+a:active, a:focus, a:hover {
+    color: #ff4500;
+}
+.v-wrap {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1024px;
+}
+.v-center, .v-footer, .v-header {
+    overflow: hidden;
+}
+.v-top {
+    background: #fafafa none repeat scroll 0 0;
+    border-bottom: 1px solid #dddddd;
+}
+.v-top .v-welcome {
+    color: #666666;
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+}
+.v-top .v-topinfo {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+}
+.v-top .v-topinfo a {
+    font-size: 12px;
+}
+.v-top .v-topinfo span {
+    color: #cccccc;
+    font-size: 12px;
+    padding: 0 5px;
+}
+.v-head {
+    padding: 15px 0;
+}
+.v-head .v-logo {
+    background: url(logo.png) no-repeat;
+    float: left;
+	overflow: hidden;
+    text-indent: -99em;
+    display: block;
+	    cursor: pointer;
+    height: 62px;
+    width: 228px;
+}
+.v-head .v-logo a {
+    display: block;
+    height: 50px;
+    width: 180px;
+}
+.v-head .v-search {
+    float: right;
+    margin-top: 10px;
+}
+.v-head .v-search input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    float: left;
+    font-family: "Microsoft YaHei",Arial;
+}
+.v-head .v-search .v-text {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    color: #555555;
+    font-size: 12px;
+    height: 33px;
+    line-height: 33px;
+    margin-right: 5px;
+    padding: 0 10px;
+    width: 200px;
+}
+.v-head .v-search .v-submit {
+    background: #212f48 none repeat scroll 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    height: 35px;
+    text-align: center;
+    width: 60px;
+}
+.v-nav {
+    background: #212f48 none repeat scroll 0 0;
+}
+.v-nav ul {
+    overflow: hidden;
+}
+.v-nav ul li {
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    width: 64px;
+}
+.v-nav ul li a {
+    color: #fafafa;
+    display: block;
+    font-size: 14px;
+}
+.v-nav ul li .v-hover, .v-nav ul li a:hover {
+    background: #83bb14 none repeat scroll 0 0;
+}
+.v-record {
+    display: none;
+}
+.v-record ul {
+    background: #fafafa none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 5px 1px;
+}
+.v-record ul li {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px;
+    overflow: hidden;
+    padding: 0 5px;
+    text-align: center;
+    width: 182px;
+}
+.v-record ul li a {
+    font-size: 12px;
+}
+.v-title {
+    background: rgba(0, 0, 0, 0) url("http://www.mp4bag.com/css/title.png") repeat scroll 0 0;
+    border-bottom: 1px solid #cccccc;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.v-title h1, .v-title h2, .v-title h3, .v-title em {
+    color: #4581ec;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+.v-title h1 a, .v-title h2 a, .v-title h3 a {
+    color: #4581ec;
+}
+.v-title span, .v-title span a {
+    color: #555555;
+    float: right;
+    font-size: 12px;
+}
+.v-bottom {
+    background: #212f48 none repeat scroll 0 0;
+    margin-top: 10px;
+    padding: 25px 0;
+    text-align: center;
+}
+.v-bottom p {
+    color: #eeeeee;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+}
+.v-bottom p a {
+    color: #eeeeee;
+}
+.v-bottom p span {
+    color: #555555;
+    font-size: 12px;
+    padding: 0 10px;
+}
+.v-backtop {
+    bottom: 25%;
+    left: 50%;
+    margin-left: 530px;
+    position: fixed;
+    z-index: 2147483647;
+}
+.v-backtop a {
+    background: rgba(0, 0, 0, 0) url("http://www.mp4bag.com/css/gotop.png") repeat scroll 0 0;
+    display: block;
+    height: 57px;
+    text-indent: -9999px;
+    width: 19px;
+}
+.v-backtop a:hover {
+    background: rgba(0, 0, 0, 0) url("http://www.mp4bag.com/css/gotop.png") repeat scroll -19px 0;
+}
+#HISTORY {
+    border-top: 1px solid #cccccc;
+    display: none;
+    left: 50%;
+    margin-left: 312px;
+    margin-top: -1px;
+    position: fixed;
+    top: 31px;
+}
+#mh-ul {
+}
+#mh-ul ul {
+}
+#mh-ul ul li {
+    border-bottom: 1px solid #cccccc;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+#mh-ul ul li a {
+}
+#mh-title {
+    padding: 0 5px 0 2px;
+}
+.ad {
+    margin: 0 auto;
+	padding:1px 0 0 0px;
+    overflow: hidden;
+    width: 1024px;
+}
+.ad_a {
+    margin: 0 auto;
+	padding:2px 0 0 0px;
+    overflow: hidden;
+    width: 1024px;
+}

@@ -1,0 +1,10 @@
+ <div class="indexslider slide_container clearfix mb20">
+    <ul class="rslides" id="slider">
+    		{maccms:vod num="10" type="all" order="desc" by="time" level="5"}
+            <li> <a class="alink" href="{:mac_url_vod_detail($vo)}"> <img class="lazy" src="{$vo.vod_pic_slide|mac_url_img}" alt="{$vo.vod_name}">
+        <p class="caption"><span class="sltitle">{$vo.vod_name}</span><span class="sldes">{$vo.vod_blurb}</span></p>
+        </a> </li>
+		{/maccms:vod}
+          </ul>
+  </div>
+  

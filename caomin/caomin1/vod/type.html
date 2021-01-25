@@ -1,0 +1,102 @@
+<!DOCTYPE html >
+<html lang="zh-CN">
+ <head>
+     <title>{$obj.type_name}数据列表-第{$param.page}页-{$maccms.site_name}</title>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <meta name="keywords" content="{$obj.type_name}数据列表-第{$param.page}页-{$maccms.site_name}" />
+     <meta name="description" content="{$obj.type_name}数据列表-第{$param.page}页-{$maccms.site_name}" />
+     {include file="public/include"}
+ </head>
+ <body>
+ {include file="public/head"}
+<div class="wrap">
+<div class="row">
+<div class="case">
+<div class="feifan123-net">
+<span>剧情</span>
+<div class="list_nav j-list-nav" id="j-nav-type3">
+<ul>
+<li class="active"><em>全部</em></li>
+{empty name="$obj.type_extend.class"}
+{maccms:foreach name=":explode(',',$obj.parent.type_extend.class)"}
+<li><a {if condition="$key gt 12"}class="hide"{/if} href="{:mac_url_type($obj,['class'=>$vo],'show')}">{$vo}</a></li>
+{/maccms:foreach}
+{else /}
+{maccms:foreach name=":explode(',',$obj.type_extend.class)"}
+<li><a {if condition="$key gt 12"}class="hide"{/if} href="{:mac_url_type($obj,['class'=>$vo],'show')}">{$vo}</a></li>
+{/maccms:foreach}
+{/empty}					
+</ul>
+</div>
+</div>
+
+<div class="feifan123-net">
+<span>地区</span>
+<div class="list_nav j-list-nav" id="j-nav-type3">
+<ul>
+<li class="active"><em>全部</em></li>
+{empty name="$obj.type_extend.area"}
+{maccms:foreach name=":explode(',',$obj.parent.type_extend.area)"}
+<li><a {if condition="$key gt 12"}class="hide"{/if} href="{:mac_url_type($obj,['class'=>$vo],'show')}">{$vo}</a></li>
+{/maccms:foreach}
+{else /}
+{maccms:foreach name=":explode(',',$obj.type_extend.area)"}
+<li><a {if condition="$key gt 12"}class="hide"{/if} href="{:mac_url_type($obj,['area'=>$vo],'show')}">{$vo}</a></li>
+{/maccms:foreach}
+{/empty}				
+</ul>
+</div>
+</div>
+
+<div class="feifan123-net">
+<span>年代</span>
+<div class="list_nav j-list-nav" id="j-nav-type3">
+<ul>
+<li class="active"><em>全部</em></li>
+{empty name="$obj.type_extend.year"}
+{maccms:foreach name=":explode(',',$obj.parent.type_extend.year)"}
+<li><a {if condition="$key gt 11"}class="hide"{/if} href="{:mac_url_type($obj,['class'=>$vo],'show')}">{$vo}</a></li>
+{/maccms:foreach}
+{else /}
+{maccms:foreach name=":explode(',',$obj.type_extend.year)"}
+<li><a {if condition="$key gt 11"}class="hide"{/if} href="{:mac_url_type($obj,['year'=>$vo],'show')}">{$vo}</a></li>
+{/maccms:foreach}
+{/empty}					
+</ul>
+</div>
+</div>
+
+</div>
+</div>
+<div class="row">
+<div class="channel">
+<div class="list clearfix">
+<ul>
+{maccms:vod num="30" paging="yes" type="current" order="desc" by="sort"}	
+<li>
+<div class="li_li clearfix">
+<div class="li_all">
+<div class="li_img">
+<a href="{:mac_url_vod_detail($vo)}"><img class="dpic dh lazy" src="{$maccms.path_tpl}image/loading.gif" data-original="{:mac_url_img($vo.vod_pic)}">
+<span class="rgba1">{if condition="$vo.vod_remarks neq ''"}{$vo.vod_remarks}{elseif condition="$vo.vod_serial gt 0"}第{$vo.vod_serial}集{else /}已完结{/if}</span></a>
+</div>
+<div class="li_text">
+<p class="name">
+<a href="{:mac_url_vod_detail($vo)}">{$vo.vod_name}</a>
+</p>
+<p class="actor">{$vo.vod_actor|mac_default='内详'}</p>
+</div>
+<a class="alink" href="{:mac_url_vod_detail($vo)}" title="{$vo.vod_name}"></a>
+</div>
+</div>
+</li>
+{/maccms:vod}	
+</ul>
+</div>
+{include file="public/paging"}	
+</div> 	
+</div> 				
+</div>
+ {include file="public/foot"}
+ </body>
+</html>

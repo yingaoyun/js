@@ -1,0 +1,53 @@
+
+.v-self {
+    overflow: hidden;
+}
+.v-self .v-plate {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-right: 11px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 332px;
+}
+.v-self .v-plate ul {
+    overflow: hidden;
+}
+.v-self .v-plate ul li {
+    border-bottom: 1px dotted #cccccc;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.v-self .v-plate ul li a {
+    font-size: 12px;
+}
+.v-self .v-plate ul li em {
+    color: #000000;
+    float: left;
+    font-size: 12px;
+    padding-right: 5px;
+}
+.v-self .v-plate ul li span {
+    color: #999999;
+    float: right;
+    font-size: 12px;
+}
+
+.v-promtp {
+    background: #fffce1 none repeat scroll 0 0;
+    border: 1px solid #e0dec9;
+    color: #ff0000;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.v-promtp a {
+    color: #ff0000;
+    font-size: 13px;
+    margin: 0 5px;
+}

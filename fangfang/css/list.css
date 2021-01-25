@@ -1,0 +1,147 @@
+
+.v-list {
+    overflow: hidden;
+}
+.v-list .v-menu {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.v-list .v-menu dl {
+    margin: 5px;
+    overflow: hidden;
+}
+.v-list .v-menu dl dt {
+    background: #83bb14 none repeat scroll 0 0;
+    border: 1px solid #83bb14;
+    color: #ffffff;
+    float: left;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    width: 50px;
+}
+.v-list .v-menu dl dd {
+    float: left;
+    margin-left: 12px;
+}
+.v-list .v-menu dl dd a {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    width: 50px;
+}
+.v-list .v-menu dl dd .v-hover, .v-list .v-menu dl dd a:hover {
+    background: #83bb14 none repeat scroll 0 0;
+    border: 1px solid #83bb14;
+    color: #ffffff;
+}
+.v-list .v-plate {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.v-list .v-plate ul {
+    overflow: hidden;
+}
+.v-list .v-plate ul li {
+    float: left;
+    margin: 8px;
+    position: relative;
+    width: 130px;
+}
+.v-list .v-plate ul li img {
+    display: block;
+    height: 175px;
+    width: 130px;
+}
+.v-list .v-plate ul li p {
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: center;
+}
+.v-list .v-plate ul li span {
+    color: #999999;
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.v-list .v-plate ul li em {
+    background: #000000 none repeat scroll 0 0;
+    color: #ffffff;
+    display: block;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    opacity: 0.7;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 150px;
+    width: 100%;
+}
+
+
+.v-list .v-page {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 10px 0;
+    text-align: center;
+}
+.v-list .v-page a, .v-list .v-page span {
+    background: #212f48 none repeat scroll 0 0;
+    border: 1px solid #212f48;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 5px;
+    padding: 0 10px;
+}
+.v-list .v-page a:hover, .v-list .v-page span {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    color: #333333;
+}
+.v-list .v-null {
+    background: #fafafa none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    color: #ff0000;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 10px 0;
+    text-align: center;
+}
+.v-promtp {
+    background: #fffce1 none repeat scroll 0 0;
+    border: 1px solid #e0dec9;
+    color: #ff0000;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.v-promtp a {
+    color: #ff0000;
+    font-size: 13px;
+    margin: 0 5px;
+}

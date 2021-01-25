@@ -1,0 +1,68 @@
+<div id="pgcontainer">
+  <div class="header">
+    <div class="head clearfix">
+      <div class="logo"> <a class="logobg" href="{$maccms.path}"></a> </div>
+      <div class="nav_other mb_none">
+        <ul class="clearfix">
+          <li><a href="{$maccms.path}" class="{if condition="$maccms.aid eq 1"} cur{/if}">首页</a></li>
+        </ul>
+      </div>
+      <div class="nav_other mb_none">
+        <ul class="clearfix">
+        		{maccms:type num="10" order="asc" by="sort" ids="parent" flag="vod"}
+                    <li><a href="{:mac_url_type($vo)}" class="{if condition="($vo.type_id eq $GLOBALS['type_id'] || $vo.type_id eq $GLOBALS['type_pid'])"} cur{/if}">{$vo.type_name}</a></li>
+                 {/maccms:type}   
+                    
+                  </ul>
+      </div>
+      <div class="mac_history mb_none aa" style="float:right;"> <span class="drop-down nav-item bb" id="nav-looked"> <a href="javascript:void(0)"  class="nav-link drop-title">观看历史</a>
+        </span> 
+       </div>
+      <div class="searchput mb_none">
+        <form id="search" name="search" method="get" action="{:mac_url('vod/search')}" onSubmit="return qrsearch();">
+          <div class="input_all clearfix">
+            <div class="input_input">
+              <input  type="text" id="wd" name="wd" class="search_wd form-control input" value="" placeholder="请输入关键字" autocomplete="off">
+            </div>
+            <div class="imgbt_imgbt">
+              <input class="ico imgbt" type="submit" value="">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="menubtn pc_none"> <i class="ico menubtn_bg"></i> </div>
+      <div class="mb_search pc_none"> <i class="ico searchbtn_bg"></i> </div>
+      <div class="search_hover">
+        <form id="search" name="search" method="get" action="{:mac_url('vod/search')}" onSubmit="return qrsearch();">
+          <div class="sh1">
+            <div class="inputall">
+              <div class="input_1">
+                <div class="input_2">
+                  <input type="text" id="wd" name="wd" class="search_wd form-control input" value="" placeholder="请输入关键字" autocomplete="off">
+                </div>
+              </div>
+              <div class="imgbt_1">
+                <input class="ico imgbt" type="submit" value="">
+              </div>
+            </div>
+          </div>
+          <div class="gb1"> 取消 </div>
+        </form>
+      </div>
+      <div class="indexbtn pc_none"> <a href="{$maccms.path}"><i class="ico indexbtn_bg"></i></a> </div>
+    </div>
+  </div>
+  <div id="menu_right" class="menu_right">
+    <div class="nav_title">
+      <ul class="mb_name">
+        <li><a class="ico a_ico"></a></li>
+      </ul>
+      <ul class="nav_ul clearfix">
+    			<li><a href="{$maccms.path}" class="{if condition="$maccms.aid eq 1"} wap_cur{/if}">首页</a></li>
+               {maccms:type num="30"  order="asc" by="sort" ids="" flag="vod"}
+		       <li><a class="{if condition="($vo.type_id eq $GLOBALS['type_id'] || $vo.type_id eq $GLOBALS['type_pid'])"}wap_cur{/if}" href="{:mac_url_type($vo)}">{$vo.type_name}</a></li>
+		          {/maccms:type}
+              </ul>
+    </div>
+  </div>
+</div>

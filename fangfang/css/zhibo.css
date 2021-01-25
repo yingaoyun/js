@@ -1,0 +1,94 @@
+
+.v-play {
+    overflow: hidden;
+}
+.v-play .v-crumb {
+    background: #ffffff none repeat scroll 0 0;
+    border-bottom: 1px solid #cccccc;
+    color: #333333;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.v-play .v-crumb a {
+    font-size: 12px;
+}
+.v-play .v-crumb span {
+    color: #999999;
+    font-size: 12px;
+    margin: 0 5px;
+}
+.v-play .v-promtp {
+    background:#212F48 none repeat scroll 0 0;
+    border: 1px solid #e0dec9;
+    color: #fff;
+    font-size: 12px;
+    height:40px;
+    line-height:19px;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.v-play .v-promtp a {
+    color: #ff0000;
+    font-size: 12px;
+    margin: 0 5px;
+}
+.v-play .v-player {
+    background: #000000 none repeat scroll 0 0;
+    height: 600px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.v-play .v-player iframe {
+    display: block;
+}
+.v-play .v-related {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+}
+.v-play .v-related ul {
+    overflow: hidden;
+}
+.v-play .v-related ul li {
+    float: left;
+    margin: 8px;
+    position: relative;
+    width: 130px;
+}
+.v-play .v-related ul li img {
+    display: block;
+    height: 175px;
+    width: 130px;
+}
+.v-play .v-related ul li p {
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: center;
+}
+.v-play .v-related ul li span {
+    color: #999999;
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.v-play .v-related ul li em {
+    background: #000000 none repeat scroll 0 0;
+    color: #ffffff;
+    display: block;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    opacity: 0.7;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 150px;
+    width: 100%;
+}

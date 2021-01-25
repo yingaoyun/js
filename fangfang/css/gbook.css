@@ -1,0 +1,56 @@
+
+.v-gbook {
+    background: #f5fbfe none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    left: 50%;
+    margin-left: -216px;
+    position: fixed;
+    top: 10%;
+    width: 430px;
+}
+.v-gbook dl {
+    margin: 15px 10px 0;
+    overflow: hidden;
+}
+.v-gbook dl dt {
+    float: left;
+    font-size: 12px;
+    height: 27px;
+    line-height: 27px;
+    width: 60px;
+}
+.v-gbook dl dd {
+    float: left;
+    width: 350px;
+}
+.v-gbook dl dd input, .v-gbook dl dd textarea {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    font-family: "Microsoft YaHei",Arial;
+    font-size: 12px;
+}
+.v-gbook dl dd .v-author {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #dddddd;
+    height: 25px;
+    padding: 0 5px;
+    width: 150px;
+}
+.v-gbook dl dd .v-content {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #dddddd;
+    height: 60px;
+    line-height: 20px;
+    padding: 5px;
+    width: 320px;
+}
+.v-gbook dl dd .v-submit {
+    background: #008000 none repeat scroll 0 0;
+    border: 1px solid #008000;
+    color: #ffffff;
+    float: left;
+    height: 25px;
+    margin-right: 20px;
+    padding: 0 5px;
+}

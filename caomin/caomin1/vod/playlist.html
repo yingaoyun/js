@@ -1,0 +1,89 @@
+	<div class="wrap">
+				<div class="stit mb_none clearfix">
+					<span class="ico gang1"></span>
+					<a href="{$maccms.path}">首页</a>&nbsp;&nbsp;»&nbsp;&nbsp;
+					<a href="{:mac_url_type($obj.type)}">{$obj.type.type_name}</a>&nbsp;&nbsp;»&nbsp;&nbsp;{$obj.vod_name}&nbsp;&nbsp;»&nbsp;&nbsp;{$obj['vod_play_list'][$param['sid']]['urls'][$param['nid']]['name']}
+				</div>
+				<div class="row_top">
+					<div class="playerall">
+						<div class="player">
+						{$player_data} {$player_js}
+						</div>
+					</div>
+				</div>
+				
+			{maccms:foreach name="obj.vod_play_list" id="vo"}
+			<div id="stab11" class="row clearfix">
+			<div class="playlist clearfix">
+				<div class="ptit clearfix">
+					<i class="bflogo ico_zkm3u8"></i><b>{$vo.player_info.show}</b> - 手机播放 - 无法播放请换线路
+				</div>
+				<ul class="ulli clearfix">
+					<div id="stab_11" class="stab_list">
+						<ul class="clearfix">
+							{maccms:foreach name="vo.urls" id="vo2" key="key2"}
+							<li {if condition="$param.sid eq $vo.sid && $param.nid eq $vo2.nid"}class="active-py"{/if}>
+								<a href="{:mac_url_vod_play($obj,['sid'=>$vo.sid,'nid'=>$vo2.nid])}" target="_self">{$vo2.name}</a>
+							</li>
+							{/maccms:foreach}
+						</ul>
+					</div>
+				</ul>
+			</div>
+		</div>
+		{/maccms:foreach}
+			<div class="row">
+				<div class="ndes" id="pcjq">
+					<div class="ptit">
+					<i class="gang"></i>《{$obj.vod_name}》剧情简介
+				</div>
+				<div class="des_xy">
+					{$obj.vod_content|mac_filter_html}
+				</div>
+				</div>
+			</div>
+			
+				<div class="row">
+			<div class="ndes" id="pcjq">
+				<div class="ptit">
+					<i class="gang"></i>猜你喜欢
+				</div>
+				<div class="channel">
+					<div class="list contentlis clearfix">
+						<ul class="cont1 clearfix">
+							{maccms:vod num="6" type="current" order="desc" by="rnd"}
+							<li>
+								<div class="li_li clearfix">
+									<div class="li_all">
+										<div class="li_img">
+											<a href="{:mac_url_vod_detail($vo)}"><img class="dpic dh lazy" src="{$maccms.path_tpl}image/loading.gif" data-original="{:mac_url_img($vo.vod_pic)}">
+												<span class="rgba1">{if condition="$vo.vod_remarks neq ''"}{$vo.vod_remarks}{elseif condition="$vo.vod_serial gt 0"}第{$vo.vod_serial}集{else /}已完结{/if}</span></a>
+										</div>
+										<div class="li_text">
+											<p class="name">
+												<a href="{:mac_url_vod_detail($vo)}">{$vo.vod_name}</a>
+											</p>
+											<p class="actor">{$vo.vod_actor|mac_default='内详'}</p>
+										</div>
+										<a class="alink" href="{:mac_url_vod_detail($vo)}" title="{$vo.vod_name}"></a>
+									</div>
+								</div>
+							</li>
+							{/maccms:vod}
+						</ul>
+						<ul class="txt-list txt-list-small clearfix">
+							{maccms:vod num="20" type="current" order="desc" by="rnd" start="13"}
+							<li><span>{$key}.</span>
+								<a href="{:mac_url_vod_detail($vo)}">{$vo.vod_name}</a> {if condition="$vo.vod_remarks neq ''"}{$vo.vod_remarks}{elseif condition="$vo.vod_serial gt 0"}第{$vo.vod_serial}集{else /}已完结{/if}
+							</li>
+							{/maccms:vod}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+			</div>
+			
+			<span style="display:none" class="mac_ulog_set" alt="设置内容页浏览记录" data-type="1" data-mid="{$maccms.mid}" data-id="{$obj.vod_id}" data-sid="{$param.sid}" data-nid="{$param.nid}"></span>
+<span style="display:none" class="mac_history_set" alt="设置History历史记录" data-name="[{$obj.type.type_name}]{$obj.vod_name}" data-pic="{$obj.vod_pic|mac_url_img|mac_url_img}"></span>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+ <head>
+  <title>{$obj.vod_name}在线播放--{$maccms.site_name}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="{$obj.vod_name}{$obj.vod_name}{$obj['vod_play_list'][$param['sid']]['urls'][$param['nid']]['name']}在线播放_{$maccms.site_name}" />
+    <meta name="description" content="{$obj.vod_name}{$obj.vod_name}{$obj['vod_play_list'][$param['sid']]['urls'][$param['nid']]['name']}在线播放_{$maccms.site_name}" />
+  {include file="public/include"}
+ </head>
+ <body>
+ {include file="public/head"}
+ {include file="vod/playlist"}
+ {include file="public/foot"}
+ </body>

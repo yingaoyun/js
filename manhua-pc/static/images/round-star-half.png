@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>NoSuchKey</Code>
+  <Message>The specified key does not exist.</Message>
+  <RequestId>5EF56528265E423634A2B6B9</RequestId>
+  <HostId>node-web-resource.oss-cn-hangzhou.aliyuncs.com</HostId>
+  <Key>kanman_pc/static/images/round-star-half.png</Key>
+</Error>

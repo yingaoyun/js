@@ -1,0 +1,299 @@
+
+.v-show {
+    overflow: hidden;
+}
+.v-show .v-crumb {
+    background: #ffffff none repeat scroll 0 0;
+    border-bottom: 1px solid #cccccc;
+    color: #333333;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.v-show .v-crumb a {
+    font-size: 12px;
+}
+.v-show .v-crumb span {
+    color: #cccccc;
+    font-size: 12px;
+    margin: 0 5px;
+}
+.v-show .v-plate {
+    background: #f5fbfe none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 5px;
+}
+.v-show .v-plate .v-pic {
+    float: left;
+    height: 280px;
+    margin-right: 30px;
+    width: 220px;
+}
+.v-show .v-plate .v-pic img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.v-show .v-plate .v-info {
+    float: left;
+    margin-right: 30px;
+    width: 520px;
+}
+.v-show .v-plate .v-info h1 {
+    color: #4581ec;
+    font-size: 20px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.v-show .v-plate .v-info dl {
+    overflow: hidden;
+}
+.v-show .v-plate .v-info dl dt {
+    color: #333333;
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    width: 100%;
+}
+.v-show .v-plate .v-info dl dt span {
+    color: #000000;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+.v-show .v-plate .v-info dl dt a {
+    float: left;
+    font-size: 12px;
+}
+.v-show .v-plate .v-info dl dd {
+    color: #333333;
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    width: 50%;
+}
+.v-show .v-plate .v-info dl dd span {
+    color: #000000;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+.v-show .v-plate .v-info dl dd a {
+    float: left;
+    font-size: 12px;
+}
+.v-show .v-play {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.v-show .v-play ul {
+    overflow: hidden;
+    padding: 3px 1px;
+}
+.v-show .v-play ul li {
+    float: left;
+    margin: 4px;
+}
+.v-show .v-play ul li a {
+    background: #f5fbfe none repeat scroll 0 0;
+    border: 1px solid #dddddd;
+    color: #333333;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-align: center;
+    width: 75px;
+}
+.v-show .v-play ul li a:hover {
+    background: #008000 none repeat scroll 0 0;
+    border: 1px solid #008000;
+    color: #ffffff;
+}
+.v-show .v-body {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.v-show .v-body .v-box {
+    color: #333333;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 5px 10px;
+    text-align: justify;
+    text-indent: 2em;
+}
+.v-show .v-related {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.v-show .v-related ul {
+    overflow: hidden;
+}
+.v-show .v-related ul li {
+    float: left;
+    margin: 8px;
+    position: relative;
+    width: 130px;
+}
+.v-show .v-related ul li img {
+    display: block;
+    height: 175px;
+    width: 130px;
+}
+.v-show .v-related ul li p {
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: center;
+}
+.v-show .v-related ul li span {
+    color: #999999;
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.v-show .v-related ul li em {
+    background: #000000 none repeat scroll 0 0;
+    color: #ffffff;
+    display: block;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    opacity: 0.7;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 151px;
+    width: 100%;
+}
+.v-show .v-hot {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.v-show .v-hot ul {
+    overflow: hidden;
+    padding: 0 1px;
+}
+.v-show .v-hot ul li {
+    border-bottom: 1px dotted #cccccc;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    width: 150px;
+}
+.v-show .v-hot ul li a {
+    font-size: 12px;
+}
+.v-show .v-hot ul li em {
+    color: #000000;
+    float: left;
+    font-size: 12px;
+    padding-right: 5px;
+}
+.v-show .v-down {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.v-show .v-down ul {
+    overflow: hidden;
+    padding: 3px 1px;
+}
+.v-show .v-down ul li {
+    float: left;
+    margin: 4px;
+}
+.v-show .v-down ul li a {
+    background: #f5fbfe none repeat scroll 0 0;
+    border: 1px solid #dddddd;
+    color: #333333;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-align: center;
+    width: 245px;
+}
+.v-show .v-down ul li a:hover {
+    background: #008000 none repeat scroll 0 0;
+    border: 1px solid #008000;
+    color: #ffffff;
+}
+
+.vinfo-a, .vinfo-b, .vinfo-c, .vinfo-d {
+    margin-top: 15px;
+    width: 100%;
+}
+.vinfo-a .tr {
+    background: #ffffff none repeat scroll 0 0;
+}
+.vinfo-a .off {
+    background: #eeeeee none repeat scroll 0 0;
+}
+.vinfo-a td {
+    padding: 0 5px;
+}
+.vinfo-b h3 {
+    background: #ffebcd none repeat scroll 0 0;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+}
+.vinfo-b p {
+    background: #ffffff none repeat scroll 0 0;
+    line-height: 25px;
+    padding: 0 5px;
+}
+.vinfo-b .off {
+    background: #eeeeee none repeat scroll 0 0;
+}
+.vinfo-c h3 {
+    background: #ffebcd none repeat scroll 0 0;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+}
+.vinfo-c p {
+    line-height: 25px;
+    padding: 0 5px;
+}
+.vinfo-d h3 {
+    background: #f5deb3 none repeat scroll 0 0;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+}
+.vinfo-d p {
+    line-height: 25px;
+    padding: 3px 5px;
+}

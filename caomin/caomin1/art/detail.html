@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta name="robots" content="noarchive">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN" />
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8">
+<meta name="applicable-device" content="pc,mobile">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>{$obj.art_name}娱乐圈影讯-_娱乐新闻_在线观看_慢慢看影院</title>
+<meta name="keywords" content="{$obj.art_name},{$obj.art_name}全集,{$obj.art_name}在线观看,{$obj.art_name}全集在线观看,{$obj.art_name}迅雷下载,{$obj.art_name}完整版,{$obj.art_name}未删减版">
+<meta name="description" content="{$obj.art_name}剧情:{$obj.art_blurb}">
+<meta name="author" content="{$maccms.site_url}" />
+{include file="public/include"}
+</head>
+<body class="post-template-default single single-post postid-2897 single-format-standard search_not focusslide_s_m ui-navtop zh">
+	
+{include file="public/head"}
+
+<section class="container"><div class="content-wrap">
+	<div class="content">
+	<div class="video-content">
+				<header class="article-header">
+						<div class="breadcrumbs"><span class="text-muted">当前位置：</span><a href="/">慢慢看影院</a> <small>></small> 
+						<a href="{:mac_url_type($obj.type)}">{$obj.type.type_name}</a> <small>></small> 
+						<span class="text-muted">正文</span></div>
+						
+						<h1 class="article-title"><a href="{:mac_url_art_detail($obj)}">{$obj.art_name}娱乐圈影讯-_娱乐新闻</a></h1>
+			<ul class="article-meta">
+								<li>类型：{$obj.type.type_name}</li>
+								<li>{$obj.art_time|date='Y-m-d',###} 最后更新</li>
+				<li></li>
+			</ul>
+		</header>
+		<article class="article-content">
+		    {$obj.art_page_list[$param['page']]['content']}
+		</article>
+      	<div class="article-tags"></div>
+		<nav class="article-nav">
+		
+		</nav>
+		<div class="zzgg zzgg-content zzgg-related"><div style="padding:  10px 5px;">	 </div></div>		
+		
+		<div class="relate">
+			<h3 class="title"><strong>相关推荐</strong></h3>
+			{maccms:art num="12" type="current" order="desc" by="time"}
+			<article class="u-movie"><a title="《{$vo.art_name}》全集/迅雷下载/在线观看" href="{:mac_url_art_detail($vo)}"><div class="list-poster"><img class="thumb" src="{:mac_url_img($vo.art_pic)}"></div><h2>{$vo.art_name}</h2></a><div class="pingfen"><span>{$vo.art_score}分</span></div><div class="zhuangtai"><span>{$vo.art_remarks}</span></div></article>
+			{/maccms:art}
+		
+			
+			</div>
+			
+			<div style="clear:both;">  </div>				
+		
+		<h3 class="title" id="comments"><div class="text-muted pull-right"></div>
+		
+		
+<div class="pagenav"></div></div>	</div>
+	</div>
+</div>
+
+<aside class="sidebar">	
+<div class="widget widget_text">			
+{include file="public/soso"}
+		</div>
+		
+		<div class="widget widget_hot">
+			
+			
+		{include file="public/daytop"}
+			
+			</div>
+			
+			<div class="widget widget_text">			
+			
+			<div class="textwidget"><div style="text-align: center;"> 
+		</div></div>
+		</div>
+		
+{include file="public/zxfb"}
+		
+		</aside>
+		</div>
+		</section>
+		
+{include file="public/foot"}
+
+</body>
+</html>
