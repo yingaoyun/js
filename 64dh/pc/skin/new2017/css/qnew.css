@@ -1,0 +1,68 @@
+/*开发豆原创源码，唯一官网：www.kaifadou.com*/
+.m-gxzt{margin-top:13px;margin-left:22px}
+.g-tophe {position: relative;  height: 137px; overflow: hidden;background-color: #fff;box-shadow: 0px 0px 2px #cfcfcf; margin-bottom:15px; margin-top:15px;}
+.g-tophe .m-tabdiv{width: 145px;overflow: hidden; float: left;}
+.g-tophe .m-tabdiv ul {padding-top: 1px}
+.g-tophe .m-tabdiv li{display: block;width: 138px;height: 44px;line-height: 44px;color: #333;text-align: left;    text-indent: 17px;background-color:#fbfbfb; font-size: 16px; cursor: pointer; margin:0px 0 2px 1px; overflow: hidden;font-family: "microsoft yahei";}
+.g-tophe .m-tabdiv li.f-hover { width:148px;height:44px;background: url(../images/tabl.gif) no-repeat; color:#fff; }
+.m-tb-cont li{ width: 80px; margin:19px 0 0 34px; font-size: 14px; text-align: center;  height: 110px; overflow: hidden;float:left}
+.m-tb-cont li a { display: block; }
+.m-tb-cont li a span{ display:inline-block;height: 22px; line-height: 22px; overflow: hidden; font-family: "microsoft yahei";}
+.m-tb-cont li img{ display: block; margin:0 0 5px; border-radius:14px; width:75px; }
+.m-tb-cont li a:hover span{ color: #20aef0 }
+
+/*软件今日更新*/
+.g-qqzqdl {  margin-bottom: 15px; overflow: hidden;  }
+.m-rjtj,.m-rtop { overflow:hidden;margin-top:15px;background:white;}
+.m-rjtj ul {margin:20px 20px 10px 0 ;min-height:388px;}
+.m-rjtj ul li{ width: 258px; margin:0px 0px 20px 32px;border:1px solid #f5f5f5;float:left }
+.m-rjtj ul li a.downli{display: block;width: 258px;padding-top: 20px;padding-bottom: 20px;padding-left: 15px;height: 60px;}
+.m-rjtj ul li .m-imgk {width: 60px; height: 60px; margin:0 15px 0 0 ; }
+.m-rjtj ul li .m-imgk img { display: block;width:60px; height: 60px;  border-radius:14px;}
+.m-rjtj ul li a.downli:hover p.pnam{ color: #20aef0 }
+.m-rjtj ul li a.downli:hover .iconimg{background:url("../images/icons.png") no-repeat 0px 0px;}
+.m-rjtj ul li .m-kti { height: 20px; line-height: 20px; margin: 0 0px ; overflow: hidden; }
+.m-rjtj ul li .m-kti a{ font-size: 16px;font-family: "microsoft yahei"; }
+.m-rjtj ul li .m-kti a:hover{ color: #0af }
+.m-rjtj ul li .m-ktime{  color: #999;  padding: 3px 0 5px}
+.m-rjtj ul li .m-ktime span { margin-right: 10px }
+.m-rjtj ul li .m-ktime a { color: #999 }
+.m-rjtj ul li .m-ktime a:hover { color: #0af }
+.m-rjtj ul li .m-kimg a { display: inline-block; width: 78px;text-align: center; border-radius: 3px; }
+.m-rjtj ul li .m-kimg a:hover { background-color: #0af; color: #fff }
+
+.m-lalink {height:60px;line-height:60px;font-size:18px;background:white;width:1200px}
+.m-lalink a{height:60px;width:240px;text-align:center;}
+.m-lalink a.f-hover {width:240px;background:url("../images/gx_bk.jpg") no-repeat;color:#20aef0;}
+.iconimg{display:inline-block;width:30px;height:30px;background:url("../images/icons.png") no-repeat 0px -30px;}
+.m-rjtj ul li{position:relative;}
+.m-rjtj ul li .m-ntit { width: 125px }
+.m-rjtj ul li .m-ntit .pnam{height: 20px; line-height: 20px; overflow: hidden; color: #2a2a2a; font-size: 14px; }
+
+.m-rjtj ul li .m-ntit .pnam a:hover { color: #20aef0 }
+.m-rjtj ul li .fr-download{position:absolute;top:15px;right:10px;height:40px;width:30px;margin-top:15px}
+.pname{font-size:14px; height: 22px; line-height: 22px; overflow: hidden;}
+.m-rjtj ul li  .pname a:hover{color: #20aef0}
+.m-rjtj ul li .fr-download a:hover .iconimg{display:inline-block;width:30px;height:30px;background:url("../images/icons.png") no-repeat 0px 0px;}
+.a-title.f-hover{color:#20aef0;}
+.m-rjtj ul li.f-ix{border:1px solid #20aef0;}
+.m-rjtj ul li  p.titlep{color: #20aef0;}
+
+
+/*健康更新*/
+.m-rjtj .jkgx{margin:0px 0 30px 0 ;}
+.m-rjtj .jkgx li { position:relative;font-size: 14px; display: block;overflow: hidden;border-bottom:1px solid #eaeaea;border-top:0px solid #eaeaea;width:1200px;heihgt:0;margin:0;padding:0; }
+.m-rjtj .jkgx li a{color:#333333}
+.jkgx li .litime{ height:50px; line-height: 50px; overflow: hidden; font-size: 14px;border-left:1px solid #eaeaea;margin-left:80px;margin-top:0;margin-bottom:0; padding-left:30px;font-weight:normal;}
+.jkgx li .litime span { position:absolute;right:20px;top:0;font-size:14px;  font-weight: bold;font-weight:normal;display:inline;zoom:1  }
+.jkgx li .m-cs { display: none; margin-top:0;margin-bottom:0; margin-left:80px;height:70px;line-height:70px;border-left:1px solid #eaeaea;}
+.jkgx li .m-cs .m-txt-detail{display:inline-block;zoom:1;width:1065px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-left:30px}
+.jkgx li a{text-decoration:none;color:#000;}
+.jkgx li.f-ii a{color:white;}
+.jkgx li.f-ii p{ display: block; background:#27b7ff;border-left:1px solid transparent;}
+.jkgx li.f-ii h6{ background:#27b7ff;border-left:1px solid transparent;border-bottom:1px solid #eaeaea;}
+
+.jia{display:inline-block;width:30px;height:30px ;background:url("../images/icons.png") no-repeat -35px 0;position:absolute;top:8px ;left:23px;}
+.jicon{background-position:-35px -23px;}
+.libk{background:#00aaff;}
+

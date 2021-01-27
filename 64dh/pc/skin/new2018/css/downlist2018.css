@@ -1,0 +1,129 @@
+/*开发豆原创源码，唯一官网：www.kaifadou.com*/
+/*---下载列表页-----*/
+.g-bltj{ overflow: hidden; }
+.m-tith4 {height: 24px;line-height: 24px;font-size: 18px;color: #333;text-indent: 15px;margin: 15px 0 0;}
+.m-tith4 i {width: 5px;height: 24px;background: #00aaff;float: left;}
+.m-tith4 span{ float: right; font-weight: normal; font-size: 14px; margin-right:15px; display: block; height: 24px; line-height: 24px;  }
+.m-tith4 span b{ color: red; font-size: 16px; padding: 0px 5px; }
+.g-bltj ul{ overflow: hidden; margin:0px 15px 15px 18px;  }
+.g-bltj ul li {width: 80px;height: auto;float: left;margin: 20px 16px 0px 20px;display: inline;overflow: hidden;}
+.g-bltj ul li a {width: 100%;height: auto;display: block;overflow: hidden;}
+.g-bltj ul li a b {display: block;width: 45px;height: 45px;padding: 17.5px;border-radius: 12px;background-color: #f60;color: #fff;font-size: 16px;font-weight: normal;text-align: center;}
+.g-bltj ul li a img {width: 100%;height: 80px;border-radius: 12px;display: block;overflow: hidden;}
+.g-bltj ul li a strong {width: 100%;height: 20px;line-height: 20px;font-size: 14px;font-weight: normal;color: #555;text-align: center;margin: 6px 0 0 0;display: block;overflow: hidden;}
+.g-bltj ul li:hover a strong{ color: #f60; }
+.g-bltj ul li a b{ display: none; }
+.g-bltj ul li:hover a b{ display: block; }
+.g-bltj ul li:hover a img{ display: none; }
+/*----本类推荐 end----*/
+
+.g-hotico{ overflow: hidden;padding:20px 20px 10px 20px; position: relative; width: 1160px;}
+.g-hotico span{ position: absolute; left: 0px; top: 0px; display: block; background: url(../images/g-bbico.png) no-repeat; width: 50px; height: 50px; }
+.g-hotico ul li {width:85px;height: auto;float: left;margin: 12px 15px 12px 16px;display: inline;overflow: hidden;}
+.g-hotico ul li a {width: 100%;height: auto;display: block;overflow: hidden;}
+.g-hotico ul li a img{margin: 0px auto;width: 75px;height:75px;border-radius: 12px;display: block;overflow: hidden;}
+.g-hotico ul li a strong {width: 100%;height: 20px;line-height: 20px;font-size: 14px;font-weight: normal;color: #555;text-align: center;margin: 6px 0 0 0;display: block;overflow: hidden;}
+.g-hotico ul li a:hover strong{ color:#f40;}
+.g-hotico ul li a b{margin: 0px auto; display: block; width:45px; height:45px;padding:15px;border-radius: 12px; background-color: #f60; color: #fff; font-size: 16px; font-weight: normal; text-align: center; }
+.g-hotico ul li a b{ display: none; }
+.g-hotico ul li:hover a b{ display: block; }
+.g-hotico ul li:hover a img{ display: none; }
+
+.g-listbox{ overflow: hidden; width: 900px; }
+.g-rj-right{ overflow: hidden; width: 285px }
+.u-right-title {width: 100%;height:50px;border-bottom: 1px solid #eee;display: block;overflow: hidden;}
+.u-right-title strong {width: auto;height: 47px;line-height: 47px;font-size: 18px;font-weight: bold;color: #333;border-bottom: 3px solid #00aaff;margin: 0 0 0 16px;float: left;display: inline;overflow: hidden;}
+
+.g-bznav{ overflow: hidden; }
+.g-bznav ul{ margin-top:15px; overflow: hidden;}
+.g-bznav ul li{ float: left; overflow: hidden; width: 75px; text-align: center; height:26px; border-bottom: 1px solid #eeeeee; line-height: 26px; margin:0px 0px 15px 15px; background: #f5f5f5;   }
+.g-bznav ul li a{ font-size: 14px; color: #888888; display: block;}
+.g-bznav ul li a.red{background: #00aaff ;color: #fff;}
+.g-bznav ul li a font{ display: none; }
+.g-bznav ul li:hover{ background: #00aaff ; }
+.g-bznav ul li:hover a{ color: #fff; }
+
+.g-title{border-bottom: 1px solid #eee; overflow: hidden;}
+.g-title .f-month{ float: right; margin-right: 15px;margin-top: 13px;}
+.g-title .f-month ul li{ float: left;text-align: center;height: 24px;line-height: 24px;font-size: 16px;font-weight: bold;cursor: pointer;background: url(../images/lbl_bg.png) no-repeat left center;padding-right:3px;padding-left: 16px;}
+.g-title .f-month ul li:first-child {background: none;}
+.g-title .f-month ul li.m-hover {color: #19b5fe;}
+.g-bl-down{ overflow: hidden; }
+.g-bl-down h4.u-right-title{ float: left; width: 130px; border-bottom: none;}
+.g-bl-down .g-bl-box{ overflow: hidden; margin: 10px 15px; }
+.m-bl-list ul li{ width:100%; height:38px; border-bottom:1px dotted #eee; display:block; overflow:hidden;}
+.m-bl-list ul li a{ display:block; overflow:hidden}
+.m-bl-list ul li a i{ width:20px; height:20px; line-height:20px; font-size:12px; font-weight:bold; color:#fff; text-align:center; border-radius:33px; font-style:normal; background:#aaa; float:left; margin:8px 17px 0 0; display:inline; overflow:hidden}
+.m-bl-list ul li a .u-rank-img{ width:25px; height:25px; float:left; margin:6px 0 0; border-radius:4px; display:inline; overflow:hidden}
+.m-bl-list ul li a strong{ width:150px; height:38px; line-height:38px; font-size:14px; font-weight:normal; color:#555; float:left; margin:0 0 0 12px; display:inline; overflow:hidden}
+.m-bl-list ul li a em,.g-rank-box ul li a .u-rank-star{ display:none}
+.m-bl-list ul li:nth-child(1) a i{ background:#ff5555}
+.m-bl-list ul li:nth-child(2) a i{ background:#ff6600}
+.m-bl-list ul li:nth-child(3) a i{ background:#ff9900}
+.m-bl-list ul .f-hover{ height:auto; padding:10px 0;}
+.m-bl-list ul .f-hover i{ margin-top:20px}
+.m-bl-list ul .f-hover .u-rank-img{ width:60px; height:60px; border-radius:14px; margin:0 15px 0 0;}
+.m-bl-list ul .f-hover strong{ width:140px; height:16px; line-height:16px; color:#ff5555; margin:4px 0 0;}
+.m-bl-list ul .f-hover em{ width:140px; height:14px; line-height:14px; color:#999; margin:8px 0px 2px 0px; float:left; display:inline; overflow:hidden}
+.m-bl-list ul .f-hover .u-rank-star{ height:14px; float:left; margin:4px 0 0; display:inline; overflow:hidden}
+
+.g-jp-box{ overflow: hidden; }
+.g-jp-box ul{ overflow: hidden; margin: 10px }
+.g-jp-box ul li{ width:100%; height:auto; padding:8px 0; border-bottom:1px dotted #eee; display:block; overflow:hidden}
+.g-jp-box ul li a{ display:block; overflow:hidden}
+.g-jp-box ul li a img{ width:45px; height:45px; border-radius:12px; float:left; margin:0 17px 0 0; display:inline; overflow:hidden}
+.g-jp-box ul li a strong{ width:190px; height:16px; line-height:16px; font-size:14px; font-weight:normal; color:#333; float:left; margin:3px 0 0; display:inline; overflow:hidden}
+.g-jp-box ul li a b{ width:160px; height:14px; line-height:14px; font-size:12px; font-weight:normal; color:#999; float:left; margin:9px 0 0; display:inline; overflow:hidden}
+.g-jp-box ul li a:hover strong{ color:#ff5555}
+
+.g-hot-rj{ overflow: hidden; }
+.g-hot-rj .g-hot-top{ height: 50px; overflow: hidden;border-bottom: 1px solid #eee; }
+.g-hot-rj .g-hot-top ul{text-align: center; overflow: hidden;}
+.g-hot-rj .g-hot-top ul li{ width: auto; height:47px; line-height: 47px;font-weight: bold;color: #333;margin: 0 16px; float: left; font-size: 18px;display: inline-block;border-bottom: 3px solid #fff; cursor: pointer;}
+.g-hot-rj .g-hot-top ul li.f-hover{border-bottom: 3px solid #00aaff;color: #00aaff;}
+.g-hot-rj .g-hot-bottom{ overflow: hidden; }
+.g-hot-img{ overflow: hidden; margin: 5px 0px 15px 0px;  }
+.g-hot-img a{ width:75px; height:auto; float:left; margin:10px 4px 0 14px; display:inline; overflow:hidden}
+.g-hot-img a img{ width:55px; height:55px; border-radius:14px; margin:auto; display:block; overflow:hidden}
+.g-hot-img a strong{ width:100%; height:16px; line-height:16px; font-size:14px; font-weight:normal; color:#333; text-align:center; margin:10px 0 0; display:block; overflow:hidden}
+.g-hot-img a b{ width:100%; height:14px; line-height:14px; font-size:12px; font-weight:normal; color:#999; text-align:center; margin:7px 0 0; display:block; overflow:hidden;white-space: nowrap;}
+.g-hot-img a:hover strong{ color:#ff5555}
+.g-hot-font{overflow: hidden; margin:10px; }
+.g-hot-font{ width:auto; height:auto; line-height:28px; padding:0 10px; display:block; overflow:hidden}
+.g-hot-font a{color: #9f9f9f;font-size:13px; font-weight:normal;padding:10px 10px 0 0 ;overflow:hidden}
+.g-hot-font a:hover{ color:#f60; text-decoration: underline;}
+.g-hot-font a:nth-child(2n){color: #fe6161;}
+.g-hot-font a:nth-child(3n){color: #39b1ff;}
+.g-hot-font a:nth-child(4n){color: #73d13f; }
+.g-hot-font a:nth-child(5n){color: #b68cff;}
+
+.g-hot-lab{ overflow: hidden; }
+.g-hot-lab ul{ overflow: hidden; margin:15px 15px 0px 15px; }
+.g-hot-lab ul li{ float: left;height: 14px;font-size:14px;background: url(../images/soft-down.png) no-repeat 0 -213px;overflow: hidden; width: 50%;margin-bottom: 17px;
+line-height: 14px; color: #333;}
+.g-hot-lab ul li a{display: block; width: 90px; padding-left:24px; height: 14px; overflow: hidden; }
+
+.m-cont-list{ height: 125px; margin:0 20px;}
+.g-listbox ul li{border-bottom: 1px  dashed  #dcdcdc; overflow: hidden;}
+.g-listbox ul li:last-of-type{ border-bottom: none; }
+.m-cont-list strong a:hover{color:#0af;}
+.m-cont-list strong{font-size: 18px;margin-top:20px; font-weight: normal; display: block;height: 18px; overflow: hidden;line-height:19px;width: 570px; word-break: break-word;}
+.m-cont-list .m-jzbox{ float:left;display: inline-block;width:65px;height: 65px; text-align: center; margin:18px 15px 0px 1px;display: table;}
+.m-cont-list .m-jzbox p{display: table-cell; vertical-align: middle;}
+.m-cont-list .m-jzbox img{max-width: 65px; max-height:65px;vertical-align: middle;}
+.m-cont-list .m-imagebox .m-big{width: 47px; height: 57px;*margin-top:9px;margin:18px 18px 0 4px;}
+.m-cont-list .m-leftbox{width:660px;height:66px; position:relative;float:left;margin-top:17px;*margin-top:7px; }
+.m-cont-list .m-leftbox p{display: inline-block; font-size: 14px; color:#9b9b9b;height:43px;overflow: hidden;word-break: break-word;line-height: 22px; }
+.m-cont-list .m-leftbox span{font-size: 12px;color:#9b9b9b;position:absolute;left:0px;bottom:0px;display:block; width:500px;height: 17px;overflow: hidden;word-break: break-word;}
+.m-cont-list .m-leftbox span i{color:#666;font-style: normal; margin-right: 10px;}
+.m-cont-list .m-rightbox{width: 82px; height: 82px;*margin-top: -10px;}
+.m-cont-list .m-rightbox img{margin-bottom: 10px;}
+.m-cont-list .m-rightbox span{display: inline-block;width: 80px;height: 30px; border-radius:3px; background-color:#00aaff; font-size:14px; text-align: center; line-height: 30px;margin-bottom: 4px;overflow: hidden;color:#fff;}
+.m-cont-list .m-rightbox a{color:#fff;width: 80px;height: 30px;display: inline-block;}
+.m-cont-list .m-rightbox a:hover{background-color: #0098e4;}
+.m-cont-list .m-rightbox b{font-size:14px; color: #686868;font-weight:500;margin-left: 6px; overflow: hidden;display: inline-block; width: 74px;height: 17px;word-break: break-word;}
+
+
+
+
+

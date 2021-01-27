@@ -1,0 +1,33 @@
+/*开发豆原创源码，唯一官网：www.kaifadou.com*/
+/*内容部分*/
+.g-tophe {position: relative;margin-top:15px; margin-bottom:15px; }
+.g-tophe .m-tabdiv{width: 180px;overflow: hidden; float: left;}
+.g-tophe .m-tabdiv .m-ul li span{display:inline-block;padding:0 5px}
+.g-tophe .m-tabdiv li{width: 180px;height: 60px;line-height: 60px;color: #333;text-align:center; font-size: 16px;  overflow: hidden;font-family: "microsoft yahei";border-bottom:1px solid #eaeaea; }
+.g-tophe .m-tabdiv .m-ul li a{width: 180px;height: 60px;background-color: #fff; display: block;}
+.g-tophe .m-tabdiv .m-ul li a:hover{background-color: #b3e7ff; color:#20aef0; }
+.g-tophe .m-tabdiv li.m-li{}
+.g-tophe .m-tabdiv li.m-li a,.g-tophe .m-tabdiv li.m-li a:hover{color:#fff;background:#20aef0}
+.g-tophe .m-tabdiv li.f-hover  { width:180px;color:#20aef0;background:#b3e7ff; }
+.g-tophe .m-tabdiv li.f-hover a{color:#20aef0}
+.g-tophe .m-gywm{width:1005px;min-height:645px;overflow:hidden}
+.g-tophe .m-gywm .m-new-cont{background:#fff}
+.g-tophe .m-gywm  h3{line-height:80px;height:80px;font-size:24px;font-weight:bold;color:#20aef0;margin-left:20px;border-bottom:1px solid #eaeaea;margin:0 20px}
+.g-tophe .m-gywm .m-tdetail{padding:25px 20px;font-size:16px;font-family:arial,"Microsoft YaHei"}
+.g-tophe .m-gywm .m-tdetail p{line-height:30px;color:#555;text-indent:2em;padding:0 5px;font-size:14px}
+
+
+/*友情链接*/
+.g-tophe .m-link a{color:#000}
+.g-tophe .m-gywm h3{line-height:80px;height:80px;font-size:24px;font-weight:bold;color:#20aef0;margin-left:20px;border-bottom:1px solid #eaeaea;margin:0 20px}
+/*地图*/
+.g-tophe .m-gywm .m-new-cont #about_text {  margin: 20px;  font-size: 14px;  line-height: 25px;  text-align: left;padding-bottom:20px;  }
+.g-tophe .m-gywm .m-new-cont #about_text a img{ border-top-style: none;  border-bottom-style: none;  border-left-style: none; vertical-align:bottom }
+.g-tophe .m-gywm .m-new-cont #about_text p {  padding-top: 20px;  text-indent: 50px;  }
+.g-tophe .m-gywm .m-new-cont #about_text h2 {  font-size: 14px;  color: #F60;  text-align: left;  margin: 0px;  padding:10px 0;  border-bottom-width: 1px;  border-bottom-style: solid;  border-bottom-color: #CCC;  clear: both;   color:#555;}
+.g-tophe .m-gywm .m-new-cont #about_text h2 a{color:#555;}
+.g-tophe .m-gywm .m-new-cont #about_text ul li {  list-style-type: none;  line-height: 25px;  float: left;  width: 140px;  height: 30px;  margin: 5px;  text-align: center;  }
+.g-tophe .m-gywm .m-new-cont #about_text  ul li a {  text-decoration: underline;  color:#555; }
+.g-tophe .m-gywm .m-new-cont #about_text  ul li a:hover {color:#f40;}
+.g-tophe .m-gywm .m-new-cont #about_text ul {  margin: 0px;  padding: 0px;  }
+.g-tophe .m-gywm .m-new-cont #about_text ul.about_link_ul2 li{ height:25px;line-height:25px;width:auto ;color:#555;display:block;zoom:1;float:none;text-align:left}

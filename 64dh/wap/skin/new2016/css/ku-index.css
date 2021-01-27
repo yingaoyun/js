@@ -1,0 +1,118 @@
+/*ÂºÄÂèëË±ÜÂéüÂàõÊ∫êÁ†ÅÔºåÂîØ‰∏ÄÂÆòÁΩëÔºöwww.kaifadou.com*/
+@charset "gb2312";
+body,p,ul,dl,h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-weight:normal;}
+body{text-align:left;font-size: 12px;padding:0 0 0 0; font-family:"Œ¢»Ì—≈∫⁄";  background:none; background:#f0f0f0}
+li{list-style:none}
+input {-webkit-appearance:none;}
+a:link{ text-decoration:none}
+a,a:visited{text-decoration:none;color:#333;}
+.clearfix:after{clear:both;height:0;overflow:hidden;display:block;visibility:hidden;content:"."}
+em{ font-style:normal;}
+* {	-moz-box-sizing: border-box;-webkit-box-sizing: border-box;	box-sizing: border-box;	-webkit-tap-highlight-color: rgba(0,0,0,0);	-webkit-text-size-adjust: none;}
+
+.g-nav-full{ width:100%; height:42px; background:#fff; display:-webkit-box; overflow:hidden;}
+.g-nav-full li{ width:auto; height:42px; box-sizing:border-box; text-align:center; display:block; overflow:hidden; position:relative; zoom:1;-webkit-box-flex:1}
+.g-nav-full li a{ width:auto; height:42px; line-height:42px; font-size:16px; font-weight:normal; color:#555; text-align:center; text-indent:20px; padding:0 6px; box-sizing:border-box; background:url(/kaifadou/skin/new2016/images/ku-icon.png) no-repeat 6px 14px; background-size:320px; display:inline-block; overflow:hidden;}
+.g-nav-full li i{ width:1px; height:32px; background:#eee; display:block; overflow:hidden; position:absolute; right:0; top:5px;}
+.g-nav-full .m-hover a{ border-bottom:2px solid #19b5fe;}
+
+.g-nav-full li:nth-child(2) a{ background-position:6px -20px;}
+.g-nav-full li:nth-child(3) a{ background-position:6px -53px;}
+.g-nav-full li:nth-child(4) a{ background-position:6px -87px;}
+
+.g-box{ width:100%; height:auto; padding:0 10px; box-sizing:border-box; display:block; overflow:hidden; background:#fff; margin:10px 0 0 0;}
+
+.g-ku-game{ width:100%; height:auto; margin:0; padding:10px 0 0 0; display:-webkit-box; overflow:hidden;}
+.g-ku-game .ico-wrap{ width:70px; height:70px; display:block; overflow:hidden}
+.g-ku-game .ico-wrap img{ width:100%; height:70px; border-radius:16px; display:block; overflow:hidden; margin:0; padding:0; max-width:none; max-height:none}
+.g-ku-game ul{ width:auto; height:auto; margin:0; text-align:left; padding:0 0 0 12px; box-sizing:border-box; display:block; overflow:hidden; -webkit-box-flex:1}
+.g-ku-game ul li{width:100%; margin:2px 0 0 0;}
+.g-ku-game ul .cpname{  margin:2px 0 7px 0;}
+.g-ku-game ul .cpname h1{ width:100%; height:20px; line-height:20px; font-size:18px; font-weight:normal; color:#333; display:block; overflow:hidden}
+.g-ku-game ul li h1{ font-weight:normal;}
+.g-ku-game ul li b{ width:50%; height:16px; line-height:16px; font-size:12px; font-weight:normal; color:#999; float:left; margin:5px 0 0 0; display:inline; overflow:hidden}
+.g-ku-game ul li b span{ color:#333;}
+
+#downAddress { width:100%; height:auto; float:left; margin:0; padding:0 0 10px 0; display:inline; overflow:hidden; box-sizing:border-box;}
+#downAddress .m-down-ul{ width:100%; height:auto; margin:0; padding:0 0 0 0; box-sizing:border-box; display:block; overflow:hidden}
+#downAddress .m-down-ul li{ width:50%; height:auto; padding:10px 0 0 0; box-sizing:border-box; float:left; display:inline; overflow:hidden; margin:0;}
+#downAddress .m-down-ul li a{ width:100%; height:30px; line-height:30px; background:#19b5fe; border-radius:6px; font-size:16px; font-weight:normal; color:#fff; text-align:center; display:block; overflow:hidden; margin:0; text-decoration:none}
+#downAddress .m-down-ul li a:active{ background:#fa3e77}
+#downAddress .m-down-ul .m-down-last{ width:100%;}
+#downAddress .m-down-ul li:nth-child(1) {padding-right: 5px}
+#downAddress .m-down-ul li:nth-child(2) {padding-left: 5px}
+.g-chain-nav{ width:100%; height:auto; display:block; overflow:hidden}
+.g-chain-nav li{ width:33.33%; height:40px; line-height:40px; font-size:14px; font-weight:normal; color:#333; text-indent:22px; float:left; margin:1px 0px -1px 0px; border-bottom:1px dashed #ccc; display:inline; overflow:hidden; position:relative; zoom:1}
+.g-chain-nav li b{ width:4px; height:4px; background:#ddd; display:block; overflow:hidden; position:absolute; left:10px; top:17px;}
+.g-chain-nav li i{ width:1px; height:14px; background:#eee; display:block; overflow:hidden; position:absolute; right:0; top:12px;}
+
+.g-ku-title{ width:100%; height:30px; line-height:30px; font-size:16px; font-weight:bold; color:#333; text-indent:12px; margin:7px 0 0 0; display:block; overflow:hidden; position:relative; zoom:1}
+.g-ku-title b{ width:4px; height:18px; background:#19b5fe; border-radius:2px; display:block; overflow:hidden; position:absolute; left:0; top:6px;}
+.g-ku-title a{ width:auto; height:30px; line-height:30px; font-size:14px; font-weight:normal; color:#19b5fe; padding:0 18px 0 0; box-sizing:border-box; float:right; display:inline; overflow:hidden; text-indent:0; position:relative; zoom:1}
+.g-ku-title a span{ width:14px; height:14px; line-height:14px; font-size:12px; font-weight:normal; font-family:serif; color:#fff; text-align:center; background:#19b5fe; border-radius:22px; text-indent:0; display:inline-block; overflow:hidden; position:absolute; right:0; top:8px;}
+.g-ku-title em{ width:auto; height:auto;  font-size:12px; line-height:normal; font-weight:normal; color:#16d0cf; border:1px solid #eee; border-radius:16px; padding:4px 12px; float:right; margin:2px 0 0 0; display:inline; overflow:hidden; text-indent:0; text-align:center;}
+
+.g-ku-cms{ width:100%; height:auto; padding:0; display:block; overflow:hidden; background:#fff; box-sizing:border-box;}
+.g-ku-cms li{ width:100%; height:auto; display:-webkit-box; overflow:hidden; padding:10px 0; border-bottom:1px solid #e6e6e6}
+.g-ku-cms li .g-relcms-img{ width:auto; height:85px; display:block; overflow:hidden}
+.g-ku-cms li .g-relcms-img img{ width:auto; height:85px; display:block; overflow:hidden}
+.g-ku-cms li .g-relcms-introd{ width:auto; height:auto; display:block; overflow:hidden; -webkit-box-flex:1; margin:0 0 0 10px;}
+.g-ku-cms li .g-relcms-introd strong{ width:100%; height:20px; line-height:20px; font-size:16px; font-weight:normal; color:#333; display:block; overflow:hidden}
+.g-ku-cms li .g-relcms-introd p{ width:100%; height:38px; line-height:18px; font-size:12px; font-weight:normal; color:#999; margin:5px 0 0 0; display:block; overflow:hidden}
+.g-ku-cms li .g-relcms-introd em{ width:100%; height:auto; font-size:12px; font-weight:normal; color:#666; margin:0 0 0 0; display:block; overflow:hidden}
+.g-ku-cms li .g-relcms-introd em b{width:auto;height:auto;float:left;font-weight:normal;color:#999;display:inline;overflow:hidden;position:relative;zoom:1;text-indent: 18px;}
+.g-ku-cms li .g-relcms-introd em b span{width: 20px;height: 20px;background: url(/kaifadou/skin/new2016/images/ku-icon.png) no-repeat 0 -159px;background-size: 320px;position:absolute;left:0;top: 4px;}
+.g-ku-cms li .g-relcms-introd em i{ width:auto; height:auto; float:left; font-weight:normal; font-style:normal; color:#999; margin:0 0 0 15px; display:inline; overflow:hidden; position:relative; zoom:1; text-indent:20px;}
+.g-ku-cms li .g-relcms-introd em i span{ width:20px; height:20px; background:url(/kaifadou/skin/new2016/images/ku-icon.png) no-repeat 0 -211px; background-size:320px; position:absolute; left:0; top:4px;}
+
+.g-ku-introd{ width:100%; height:38px; line-height:20px; font-size:14px; font-weight:normal; color:#999; display:block; overflow:hidden; margin:10px 0 0 0; text-indent:2em;}
+.g-introd-btn{ width:100%; height:auto; display:block; overflow:hidden;}
+.g-introd-btn b{ width:23px; height:44px; line-height:44px; background:#ccc; font-size:20px; font-weight:bold; font-family:serif; color:#fff; text-align:center; margin:0 0 0 0; float:right; margin:0 10px 0 0; display:inline; overflow:hidden;-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);-o-transform: rotate(90deg);-ms-transform: rotate(90deg);transform: rotate(90deg);}
+
+.g-introd-btn.m-hover b{-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg);-o-transform: rotate(-90deg);-ms-transform: rotate(-90deg);transform: rotate(-90deg);}
+
+.g-down-previmg{ width:100%; height:auto; padding:0 0 10px; box-sizing:border-box; background:#fff; display:block; overflow:hidden; position:relative; zoom:1;}
+.g-down-previmg .g-down-ul{ width:auto; height:auto; position:absolute; top:0; left:0; white-space:nowrap; overflow:hidden; display:block; overflow:hidden}
+.g-down-previmg .g-down-ul li{ width:200px; height:auto; display:inline-block; margin:0 15px 0 0 ; white-space:nowrap}
+.g-down-previmg .g-down-ul li img{ width:100%; height:auto; border-radius:0; display:block; overflow:hidden}
+
+.g-like{width:100%;height:auto;padding: 4px 2px 12px 0;box-sizing:border-box;overflow:hidden;}
+.g-like li{width:25%;height:auto;float:left;padding: 10px 6px 0 8px;box-sizing:border-box;display:inline;overflow:hidden;}
+.g-like li a{ width:100%; height:auto; display:block; overflow:hidden}
+.g-like li a img{ width:100%; height:auto; border-radius:14px; display:block; overflow:hidden}
+.g-like li a strong{ width:100%; height:20px; line-height:20px; font-size:14px; font-weight:normal; color:#555; text-align:center; margin:4px 0 0 0; display:block; overflow:hidden}
+
+
+.g-rank-ul{ width:100%; height:auto; display:block; overflow:hidden; padding:0 0 0 0; box-sizing:border-box;}
+.g-rank-ul li{ width:100%; height:auto; display:-webkit-box; overflow:hidden; background:#fff; padding:0 10px; box-sizing:border-box; position:relative; zoom:1}
+.g-rank-ul li i{ width:27px; height:40px; line-height:32px; font-size:14px; font-weight:normal; font-style:normal; color:#fff; text-align:center; background:url(/kaifadou/skin/new2016/images/home-icon.png) no-repeat -377px 0; background-size:496px; display:block; overflow:hidden; position:absolute; left:10px; top:12px;}
+.g-rank-ul li .g-a-left{width:100%;height:auto;display:-webkit-box;overflow:hidden;padding: 10px 40px 10px 0;box-sizing:border-box;border-bottom:1px solid #eee;}
+.g-rank-ul li .g-a-left img{ width:66px; height:66px; margin:0 10px 0 0; display:block; overflow:hidden;border-radius: 12px;}
+.g-rank-ul li .g-a-left p{ width:auto; height:auto; display:block; overflow:hidden; -webkit-box-flex:1}
+.g-rank-ul li .g-a-left p strong{ width:100%; height:20px; line-height:20px; font-size:16px; font-weight:normal; color:#333; margin:4px 0 0 0; display:block; overflow:hidden;}
+.g-rank-ul li .g-a-left p b{ width:100%; height:18px; line-height:18px; font-size:14px; font-weight:normal; color:#bbb; margin:4px 0 0 0; display:block; overflow:hidden;}
+.g-rank-ul li .g-a-left p b span{ float:left; margin:0 0 0 4px; display:inline; overflow:hidden}
+.g-rank-ul li .g-a-left p img{ width:auto; height:14px; display:block; overflow:hidden; margin:4px 0 0 0;}
+.g-rank-ul li .g-a-right{width: 40px;height: 40px;line-height: 36px;font-size: 16px;font-weight:normal;color:#66d105;text-indent: 38px;background: url(/kaifadou/skin/new2016/images/health-icon.png) no-repeat -430px -403px;background-size: 468px;display:block;overflow:hidden;position:absolute;right:10px;top:25px;}
+.g-rank-ul li .g-a-right:active{ color:#fff; background:url(/kaifadou/skin/new2016/images/home-icon.png) no-repeat -170px -162px; background-size:382px}
+
+/*∑÷“≥*/
+.g-box .tspage{ width:100%; height:auto; background:#fff; display:block; overflow:hidden;}
+.g-box .tspage .tsp_count{ display:none;}
+.g-box .tspage .tsp_nav{ width:100%; height:auto; background:#fff; display:block; overflow:hidden; text-align:center;}
+.g-box .tspage .tsp_nav i{ width:auto; height:30px; line-height:30px; font-size:14px; font-weight:normal; color:#333; background:#fff; border:1px solid #ccc; border-radius:4px; margin:10px 0 0; padding:0 6px; display:inline-block; overflow:hidden;}
+.g-box .tspage .tsp_nav b{ width:auto; height:30px; line-height:30px; font-size:14px; font-weight:normal; color:#fff; background:#19b5fe; border:1px solid #19b5fe; border-radius:4px; margin:10px 0 0; padding:0 11px; display:inline-block; overflow:hidden;}
+.g-box .tspage .tsp_nav a{ width:auto; height:30px; line-height:30px; font-size:14px; font-weight:normal; color:#333; background:#fff; border:1px solid #ccc; border-radius:4px; margin:10px 0 0; padding:0 11px; display:inline-block; overflow:hidden;}
+.g-box .tspage .tsp_nav a i{ width:auto; height:auto; border:0; padding:0; margin:0;}
+.g-box .tspage .tsp_nav .tsp_change{ display:none}
+
+
+/*”Œœ∑ø‚*/
+.g-game-nav li a{ background:none; text-indent:0}
+
+#downAddress .m-down-ul li a.nodown { background: #ccc }
+
+
+
+
+

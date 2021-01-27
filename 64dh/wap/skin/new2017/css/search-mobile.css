@@ -1,0 +1,160 @@
+/*开发豆原创源码，唯一官网：www.kaifadou.com*/
+/* 基于normalize bootstrap 的全局重置CSS文件部分1.2版本 */
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+html {  font-family: sans-serif; /* 1 */  -ms-text-size-adjust: 100%; /* 2 */  -webkit-text-size-adjust: 100%; /* 2 */-webkit-tap-highlight-color: rgba(0, 0, 0, 0);/* 消除移动浏览器点击蓝色背景 */}
+body {  margin: 0;font-family:arial,"Microsoft YaHei","\5fae\8f6f\96c5\9ed1";}
+article,aside,details, /* 1 */figcaption,figure,footer,header,main, /* 2 */menu,nav,section,summary { /* 1 */  display: block;}
+audio,canvas,progress,video {  display: inline-block;}
+audio:not([controls]) {  display: none;  height: 0;}
+progress {  vertical-align: baseline;}
+template, /* 1 */[hidden] {  display: none;}
+a {  background-color: transparent; /* 1 */  -webkit-text-decoration-skip: objects; /* 2 */}
+a:active,a:hover {  outline-width: 0;}
+abbr[title] {  border-bottom: none; /* 1 */  text-decoration: underline; /* 2 */  text-decoration: underline dotted; /* 2 */}
+b,strong {  font-weight: inherit;}
+b,strong {  font-weight: bolder;}
+dfn {  font-style: italic;}
+h1 {  font-size: 2em;  margin: 0.67em 0;}
+mark {  background-color: #ff0;  color: #000;}
+small {  font-size: 80%;}
+sub,sup {  font-size: 75%;  line-height: 0;  position: relative;  vertical-align: baseline;}
+sub {  bottom: -0.25em;}
+sup {  top: -0.5em;}
+img {  border-style: none;}
+svg:not(:root) {  overflow: hidden;}
+code,kbd,pre,samp {  font-family: monospace, monospace; /* 1 */  font-size: 1em; /* 2 */}
+figure {  margin: 1em 40px;}
+hr {  box-sizing: content-box; /* 1 */  height: 0; /* 1 */  overflow: visible; /* 2 */}
+button,input,select,textarea {  font: inherit; /* 1 */  margin: 0; /* 2 */}
+optgroup {  font-weight: bold;}
+button,input { /* 1 */  overflow: visible;}
+button,select { /* 1 */  text-transform: none;}
+button,html [type="button"], /* 1 */[type="reset"],[type="submit"] {  -webkit-appearance: button; /* 2 */}
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}
+button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring {  outline: 1px dotted ButtonText;}
+fieldset {  border: 0;  margin: 0 2px;  padding: 0.35em 0.625em 0.75em;}
+legend {  box-sizing: border-box; /* 1 */  color: inherit; /* 2 */  display: table; /* 1 */  max-width: 100%; /* 1 */  padding: 0; /* 3 */  white-space: normal; /* 1 */}
+textarea {  overflow: auto;}
+[type="checkbox"],[type="radio"] {  box-sizing: border-box; /* 1 */  padding: 0; /* 2 */}
+[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button {  height: auto;}
+[type="search"] {  -webkit-appearance: textfield; /* 1 */  outline-offset: -2px; /* 2 */}
+[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration {  -webkit-appearance: none;}
+::-webkit-input-placeholder {  color: inherit;  opacity: 0.54;}
+::-webkit-file-upload-button {  -webkit-appearance: button; /* 1 */  font: inherit; /* 2 */}
+/* normalize.css结束 */
+.clearfix {	*zoom:1}
+.clearfix:before,.clearfix:after {	display:table;	line-height:0;	content:""}
+.clearfix:after {	clear:both}
+p{margin: 0;}
+img {	width:auto\9;	height:auto;	max-width:100%;	vertical-align:middle;	border:0;	-ms-interpolation-mode:bicubic}
+ul,ol,dl,h1,h2,h3,h4,h5,h6,dt,dd{margin:0;padding:0}
+ul li,ol li{list-style:none}
+.f-fl,.f-lifl li{float:left;display:inline}
+.f-fr{float:right;display:inline}
+/* 全站全局CSS部分结束 */
+
+a:link{ text-decoration:none}
+body{text-align:left;font-size: 12px;padding:0 0 0 0; font-family:"Microsoft YaHei";  background:none; background:#f0f0f0}
+
+
+.g-top-full{ width:100%; height:45px; line-height:45px; background:#19b5fe; padding:0 10px; font-size:20px; font-weight:bold;color:#fff; text-align:center; display:block; box-sizing:border-box;  position:relative; zoom:1; z-index:999}
+.g-top-full .g-back-home{ width:40px; height:45px; position:absolute; left:0; top:0; background:url(/kaifadou/skin/new2017/images/custom-icon.png) no-repeat 14px 12px; background-size:400px; display:block; overflow:hidden;}
+.g-top-full .g-list-back{ width:136px;height:21px; position:relative; zoom:1; background:none; left:4px;top:12px; display:block; overflow:hidden;}
+.g-top-full .g-list-back b{width:12px; height:21px; position:absolute; left:14px; top:12px; background:url(/kaifadou/skin/new2017/images/custom-icon.png) no-repeat 0 0; background-size:400px; display:block; overflow:hidden; left:0; top:0;}
+.g-top-full .g-list-back h1{ font-size:18px; font-weight:bold; color:#fff; text-indent:20px; height:20px; line-height:20px; text-align:left}
+.g-top-full p{  height:45px; position:absolute; right:0; top:0; display:block; overflow:hidden;}
+.g-top-full p a{ width:21px; height:21px; float:left; margin:14px 0 0 0; background:url(/kaifadou/skin/new2017/images/custom-icon.png) no-repeat -86px 0; background-size:400px;display:inline; overflow:hidden}
+.g-top-full .m-navshow-btn{ width:36px; height:45px; font-size:0; text-indent:-9999;float:left; margin:0 0px 0 10px; background:url(/kaifadou/skin/new2017/images/custom-icon.png) no-repeat -166px 14px; background-size:400px; display:inline; overflow:hidden}
+.g-top-full .m-black{ width:100%; height:100%; background:#000; opacity:0.7; position:fixed; left:0; top:45px; display:none; overflow:hidden; z-index:90;}
+.g-top-full .m-hover{ background:url(/kaifadou/skin/new2017/images/custom-icon.png) no-repeat -166px -37px #fff;background-size:400px;}
+.g-top-full .m-navshow-ul{ width:100%; height:auto; position:absolute; right:0; top:45px; background:#EDEDED; z-index:999; display:none;overflow:hidden; padding:0 0 10px 10px; box-sizing:border-box}
+.g-top-full .m-navshow-ul li{ width:33.33%; height:auto; padding:10px 10px 0 0; box-sizing:border-box; float:left; display:inline; overflow:hidden; position:relative;zoom:1}
+.g-top-full .m-navshow-ul li a{width:100%;he;height: 40px;background: #fff;padding:0 0 0 25px;border-radius: 6px;box-sizing:border-box; text-align:center; display:block;overflow:hidden;white-space:nowrap; position:relative; zoom:1}
+.g-top-full .m-navshow-ul li a b{width:20px;height:40px;background: url(/kaifadou/skin/new2017/images/custom-icon.png) no-repeat -85px -355px;background-size:400px;margin:0;display:inline-block;overflow:hidden;position:absolute;left: 8px;top: 1px;}
+.g-top-full .m-navshow-ul li a strong{width:auto;height: 40px;line-height: 40px;font-size:16px;font-weight:normal;color:#333; text-align:center;display:block;overflow:hidden;}
+.g-top-full .m-navshow-ul li:nth-child(1) b{ background-position:0 -41px;}
+.g-top-full .m-navshow-ul li:nth-child(2) b{ background-position:0 -82px;}
+.g-top-full .m-navshow-ul li:nth-child(3) b{ background-position:0 -127px;}
+.g-top-full .m-navshow-ul li:nth-child(4) b{ background-position:0 -171px;}
+.g-top-full .m-navshow-ul li:nth-child(5) b{ background-position:-86px -308px;}
+.g-top-full .m-navshow-ul li:nth-child(6) b{ background-position:0 -216px;}
+.g-top-full .m-navshow-ul li:nth-child(7) b{ background-position:0 -263px;}
+.g-top-full .m-navshow-ul li:nth-child(8) b{ background-position:0 -308px;}
+.g-top-full .m-navshow-ul li:nth-child(9) b{ background-position:-86px -263px;}
+.g-top-full .m-navshow-ul li:nth-child(10) b{ background-position:0 -355px;}
+.g-top-full .m-navshow-ul li:nth-child(11) b{ background-position:0 -403px;}
+
+.m-float{ position:fixed; left:0; top:0; z-index:999}
+
+/*首页头部*/
+.g-top-full .g-logo{ width:75px; height:28px; background:url(/kaifadou/skin/new2017/images/class-icon.png) no-repeat -330px 0; background-size:600px; display:block; overflow:hidden; position:absolute; left:10px; top:12px;}
+.g-top-full .g-index-search{ width:225px; height:45px; position:absolute; right:0; top:0; display:block; overflow:hidden; -webkit-box-flex:1}
+.g-top-full .g-index-search form{ width:179px; height:28px; margin:9px 0 0 0; float:left; display:inline; overflow:hidden;}
+.g-top-full .g-index-search form .search-input{ width:143px; height:28px; line-height:28px; font-size:14px; font-weight:normal; color:#999; text-indent:10px; background:#fff; margin:0; padding:0; border:0; border-radius:4px 0 0 4px; float:left; display:inline; overflow:hidden;}
+.g-top-full .g-index-search form .search-button{ width:36px; height:28px; background:url(/kaifadou/skin/new2017/images/class-icon.png) no-repeat -322px -78px #fff; background-size:600px; border-radius:0 4px 4px 0; border:0; float:left; margin:0; display:inline; overflow:hidden}
+footer{ width:100%; height:45px; line-height:45px; background:#dedede; border-top:1px solid #d2d2d2; font-size:14px; font-weight:normal; color:#333; text-align:center; margin:10px 0 0 0; display:block; overflow:hidden;}
+footer a{ padding:0 10px; text-decoration:none; color:#333;font-size: 16px;}
+.m-comment{ width:100%; height:auto; background:#fff;display:block; overflow:hidden; box-sizing:border-box; margin:10px 0 0 0;}
+.g-nav-full{ width:100%; height:42px; line-height:42px; background:#fff; font-size:16px; font-weight:normal;color:#e7e7e7; border-bottom:1px solid #e5e5e5; display:-webkit-box;}
+.g-nav-full a{ width:auto; height:42px; line-height:42px; font-size:16px; font-weight:normal; color:#333; display:block; overflow:hidden; -webkit-box-flex:1; text-align:center;}
+.g-nav-full .m-hover{ color:#19b5fe; border-bottom:2px solid #19b5fe}
+.g-nav-full b{ width:auto; height:42px; line-height:42px; font-size:16px; font-weight:normal; color:#333; display:block; overflow:hidden; -webkit-box-flex:1; text-align:center;}
+.g-search-full{width:100%; height:auto; padding:10px; box-sizing:border-box; display:block;  overflow:hidden;display:-webkit-box;}
+.g-search-full form{ width:100%; height:40px; margin:0 0 0 0;  overflow:hidden;}
+.g-search-full  .search-input{width: 85%; height:40px; text-indent:10px; box-shadow:none; margin:0 0 0 0; border:0; border-radius:4px 0 0 4px; padding:0; display:block; overflow:hidden; -webkit-box-flex:1; font-size: 14px;float: left;}
+.g-search-full  .search-button{ width:50px; height:40px;float: left; background:url(/kaifadou/skin/new2017/images/class-icon.png) no-repeat -315px -72px #fff; background-size:600px; border-radius:0 4px 4px 0; border:0; display:block; overflow:hidden; margin:0; padding:0; border-left:1px solid #e5e5e5;}
+
+.m-backtop{ width:40px; height:40px; background:url(/kaifadou/skin/new2017/images/index-icon.png) no-repeat 0 -143px; background-size:600px; display:none; overflow:hidden; position:fixed; right:10px; bottom:100px; z-index:500}
+
+.g-paixu{ width:auto; height:auto; margin:0px 0px 10px; display:-webkit-box; overflow:hidden}
+.g-paixu li{ width:auto; height:auto; display:block; overflow:hidden; -webkit-box-flex:1}
+.g-paixu li a{ width:100%; height:40px; line-height:40px;font-size:16px; font-weight:normal; color:#333; text-align:center; background:#fff; display:block; overflow:hidden}
+.g-paixu .f-hover a{ color:#fff;background:#19b5ff; color:#fff; font-weight:bold;}
+
+.u-more-btn{display: block;overflow: hidden;margin: 10px auto 0;width: 170px;text-align: center;color: #fff;font-size: 15px;background: #19b5fe;border-radius: 4px;height: 32px;line-height: 32px;}
+
+.g-search-over{width: 100%;height: 47px;border-bottom: 1px solid #e5e5e5;display: -webkit-box;overflow: hidden;padding: 10px;box-sizing: border-box;background: #fff;
+/* line-height: 44px; */font-size: 20px;font-weight: bold;color: #333;}
+.g-search-over h1{font-size: 15px;color: #19b5ff;font-weight: bold;padding-left: 10px;display: inline;border-left: 8px solid #19b5fe;height: 26px;/* line-height: 24px; */font-size: 20px;font-weight: bold;} 
+
+.m-sdownul {overflow: hidden; background: #fff;}
+.m-sdownul .g-cont-game{height: auto;background: #fff;display: -webkit-box;overflow: hidden;margin: 0 10px;padding: 10px 0;box-sizing: border-box;border-bottom: 1px solid #eee;}
+.m-sdownul .g-cont-game .g-game-img{ width:auto; height:auto; text-decoration:none; display:-webkit-box; overflow:hidden;-webkit-box-flex:1}
+.m-sdownul .g-cont-game .g-game-img img{ width:74px; height:74px; border-radius:14px; display:block; overflow:hidden;}
+.m-sdownul .g-cont-game .g-game-img p{ width:auto; height:auto;-webkit-box-flex:1; padding:0 0 0 10px; box-sizing:border-box; display:block; overflow:hidden}
+.m-sdownul .g-cont-game .g-game-img p strong{ width:100%; height:20px; line-height:20px; font-size:15px; font-weight:normal; color:#333; margin:5px 0 0 0; display:block; overflow:hidden}
+.m-sdownul .g-cont-game .g-game-img p img{ width:auto; height:14px; display:block; overflow:hidden; margin:8px 0 0 0;}
+.m-sdownul .g-cont-game .g-game-img p b{ width:100%; height:20px; line-height:20px; font-size:12px; font-weight:normal; color:#999; margin:5px 0 0 0; display:block; overflow:hidden}
+.m-sdownul .g-cont-game .g-game-btn{    margin: 25px 0 0 0;width: 60px;height: 27px;line-height: 27px;font-size: 14px;background: #19b5fe;display: block;overflow: hidden;
+/* position: absolute; *//* right: 10px; *//* top: 30px; */color: #fff;text-align: center;border-radius: 4px;}
+.m-sdownul .g-cont-game .g-game-btn b{ width:11px; height:13px; background:url(/kaifadou/skin/new2017/images/custom-icon.png) no-repeat -269px 0; background-size:400px; display:block; overflow:hidden; position:absolute; left:17px; top:8px;}
+.m-sdownul .g-cont-game .m-nodown-btn{ background:#999; text-align:center; text-indent:0; border:1px solid #999; color:#fff;}
+
+.g-cms-list{ width:100%; height:auto;  display:block; overflow:hidden; margin:0; }
+.g-cms-duotu{height:auto;display:block;overflow:hidden; margin:0;box-sizing:border-box; padding: 0 10px; background: #fff;}
+.g-cms-duotu li{width:100%;height:auto;border-bottom: 1px solid #F9F9F9;padding: 10px 0;box-sizing:border-box;display:-webkit-box;overflow:hidden;background:#fff;}
+.g-cms-duotu li .g-cd-left{min-height: 80px; max-height: 110px;display:block; overflow:hidden;width: 110px;}
+.g-cms-duotu li .g-cd-left img{ width:100%; height:auto; display:block; overflow:hidden}
+.g-cms-duotu li .g-cd-right{ width:auto; height:auto; display:block; overflow:hidden; position:relative; zoom:1; -webkit-box-flex:1; margin-left: 10px;}
+.g-cms-duotu li .g-cd-right strong{width:100%;height:auto;line-height: 25px;font-size:16px;font-weight:normal;color:#333;padding:0px 6px 0 0;box-sizing:border-box;display:block;overflow:hidden;}
+.g-cms-duotu li .g-cd-right b{ width:130px; height:auto; display:block; overflow:hidden;}
+.g-cms-duotu li .g-cd-right b i img{width:100%; height:auto; display:block; overflow:hidden;}
+.g-cms-duotu li .g-cd-right em{ width:100%; height:auto; font-size:14px; font-weight:normal; color:#666; margin:6px 0 0 0; display:block; overflow:hidden;height: 20px;line-height: 20px;}
+.g-cms-duotu li .g-cd-right em i{ width:auto; height:auto; float:left; font-weight:normal; color:#999; font-style:normal; display:inline; overflow:hidden; position:relative; zoom:1;text-indent: 22px;}
+.g-cms-duotu li .g-cd-right em i span{width: 19px;height: 19px;position: absolute;left: 0;/* top: 7px; */background: url(/kaifadou/skin/new2017/images/u-info-ico.png) no-repeat;background-size: 18px;
+background-position: 0px 1px;}
+.g-cms-duotu li .g-cd-right em i:nth-child(2){ width:auto; height:auto; float:left; font-weight:normal; font-style:normal; color:#999; margin:0 0 0 16px; display:inline; overflow:hidden; position:relative; zoom:1; text-indent:23px;}
+.g-cms-duotu li .g-cd-right em i:nth-child(2) span{    background: url(/kaifadou/skin/new2017/images/u-info-ico.png) no-repeat 0px -93px; background-size: 19px;}
+.g-cms-duotu .g-imgnum-0 a b{ display:none}
+.g-cms-duotu .g-imgnum-0 a strong{ height:auto;}
+.g-cms-duotu .g-imgnum-0 .g-cd-left{ box-sizing:border-box;}
+
+/*分页*/
+.g-box .tspage{ width:100%; height:auto; background:#fff; display:block; overflow:hidden;}
+.g-box .tspage .tsp_count{ display:none;}
+.g-box .tspage .tsp_nav{ width:100%; height:auto; background:#fff; display:block; overflow:hidden; text-align:center;}
+.g-box .tspage .tsp_nav i{ width:auto; height:30px; line-height:30px; font-size:14px; font-weight:normal; color:#333; background:#fff; border:1px solid #ccc; border-radius:4px; margin:10px 0 0; padding:0 6px; display:inline-block; overflow:hidden;}
+.g-box .tspage .tsp_nav b{ width:auto; height:30px; line-height:30px; font-size:14px; font-weight:normal; color:#fff; background:#19b5fe; border:1px solid #19b5fe; border-radius:4px; margin:10px 0 0; padding:0 11px; display:inline-block; overflow:hidden;}
+.g-box .tspage .tsp_nav a{ width:auto; height:30px; line-height:30px; font-size:14px; font-weight:normal; color:#333; background:#fff; border:1px solid #ccc; border-radius:4px; margin:10px 0 0; padding:0 11px; display:inline-block; overflow:hidden;}
+.g-box .tspage .tsp_nav a i{ width:auto; height:auto; border:0; padding:0; margin:0;}
+.g-box .tspage .tsp_nav .tsp_change{ display:none}

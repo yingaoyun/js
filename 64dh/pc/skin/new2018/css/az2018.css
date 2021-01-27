@@ -1,0 +1,312 @@
+/*开发豆原创源码，唯一官网：www.kaifadou.com*/
+/*---安卓首页-----*/
+.g-main-bg{ background-color: #fff; box-shadow: 0px 1px 3px #ccc;}
+.g-box-tab{ height: 142px; margin-top:15px;background-color: #fff; overflow: hidden; }
+.g-top-tab{float: left;border-top: 1px solid #e4e4e4; border-left: 1px solid #e4e4e4; width: 131px; height: 141px;}
+.g-top-tab ul li{ height: 46px; line-height: 46px; border-bottom: 1px solid #e4e4e4;border-right: 1px solid #e4e4e4; text-align: center; font-size: 16px;  cursor: pointer; position: relative;}
+.g-top-tab ul li i{ display: block;position: absolute;width: 8px;height: 13px;right: -8px;top: 17px; }
+.g-top-tab ul li.m-hover{ background-color: #19b5fe; color: #fff; }
+.g-top-tab ul li.m-hover i{background: url(../images/icobox.png) no-repeat -7px -8px;}
+.g-bottom-tab{ float: right; width: 1067px; overflow: hidden;border: 1px solid #e4e4e4; border-left: none; height: 140px;}
+.g-bottom-tab .m-tab-list{ margin:15px 13px 11px 13px; overflow: hidden;  height: 114px; width: 1041px;}
+.g-bottom-tab .m-tab-list ul li {width:88px;height: auto;float: left;margin: 0 7px 0 20px;display: inline;overflow: hidden;}
+.g-bottom-tab .m-tab-list ul li a {width: 100%;height: auto;display: block;overflow: hidden;}
+.g-bottom-tab .m-tab-list ul li a img{width: 100%;height:88px;border-radius: 12px;display: block;overflow: hidden;}
+.g-bottom-tab .m-tab-list ul li a strong {width: 100%;height: 20px;line-height: 20px;font-size: 14px;font-weight: normal;color: #555;text-align: center;margin: 6px 0 0 0;display: block;overflow: hidden;}
+.g-bottom-tab .m-tab-list ul li a:hover strong{ color:#f40;}
+.g-bottom-tab .m-tab-list ul li a b{ display: block; width:45px; height:45px;padding:21.5px;border-radius: 12px; background-color: #f60; color: #fff; font-size: 16px; font-weight: normal; text-align: center; }
+.g-bottom-tab .m-tab-list ul li a b{ display: none; }
+.g-bottom-tab .m-tab-list ul li:hover a b{ display: block; }
+.g-bottom-tab .m-tab-list ul li:hover a img{ display: none; }
+/*----腾讯手游 end----*/
+
+.g-tab-dome{ position: relative; margin-top: 15px; }
+.g-tab-dome .g-content{ padding: 20px; overflow: hidden; }
+.g-tab-dome .g-content ul li {width: 220px;height: 355px;float: left;margin: 0 6px;display: inline;overflow: hidden;position: relative;}
+.a_mr {width: 100%;height: 100%;position: relative;cursor: pointer;}
+.a_hover { width: 100%; height: 100%; cursor: pointer; position: absolute; left: 0; top: 100%; background: #f9f9f9; -webkit-transition: top .4s; -moz-transition: top .4s; -ms-transition: top .4s; -o-transition: top .4s; transition: top .4s; }
+.a_mr img {width: 220px;height:355px;}
+.a_mr span {display: block;position: absolute;}
+.a_mr .jian {right: 0;top: 0;width: 69px;height: 69px;background: url(../images/icobox.png) no-repeat -29px -2px;}
+.a_mr .txt_bj { left: 0; bottom: 0; width:220px;padding: 0px 10px; height: 48px; background: #000; filter: Alpha(Opacity=70); opacity: 0.7; }
+.a_mr .txt { left: 0; bottom: 0; width: 200px;padding: 0px 10px; height: 48px; line-height: 48px; line-height: 48px; font-size: 18px; text-align: center; overflow: hidden; color: #fff; }
+.a_hover a {display: block;width: 100%;height: 100%;}
+.a_hover .title { width: 200px;padding: 0px 10px; height: 100%; height: 60px; line-height: 60px; overflow: hidden; color: #fff; font-size: 18px; background: #19b5fe; text-align: center; }
+.a_hover .p_intro { height: 180px; margin-top: 8px; line-height: 30px; overflow: hidden; padding: 0 19px; color: #666; font-size: 14px; }
+.a_hover .p_link { text-align: center; margin-top: 30px; }
+.a_hover .p_link span { color: #19b5fe; border-radius: 12px; line-height: 28px; border: 1px solid #19b5fe; display: block; width: 92px; text-align: center; margin: auto; position: relative; z-index: 2; }
+.g-tab-dome .g-content ul li:hover .a_hover{top: 0px;}
+
+.g-tab-dome b{position: absolute;width:45px;height:80px;top:155px;cursor: pointer;background: url(../images/icobox.png) no-repeat;}
+.g-tab-dome b.m-prev-page{left: -55px;background-position: -4px -73px;}
+.g-tab-dome b.m-prev-page:hover{background-position: -4px -160px;}
+.g-tab-dome b.m-next-page{right:-55px;background-position: -55px -73px;}
+.g-tab-dome b.m-next-page:hover{background-position: -55px -160px;}
+/*----推荐 end----*/
+
+.g-az-game{ margin-top:15px; overflow: hidden;  }
+.g-az-game .g-ar-recomd{ width: 860px; }
+.g-az-game .g-title{ width: 860px; overflow: hidden; }
+.g-az-game .g-gm-rank{ width: 340px; overflow: hidden;}
+.g-gm-rank .g-title{ width: 340px; overflow: hidden; }
+.g-title{ height: 50px; border-bottom:1px solid #efefef;  overflow: hidden;width: 860px;}
+.g-title h4{ float: left;font-size: 20px;color: #333; font-weight: bold; height: 50px; line-height: 50px; margin-left:15px; }
+.g-ico h4{ background:url(../images/icobox.png) no-repeat; padding-left:40px;}
+.g-az-ico h4{ background-position: -7px -258px; }
+.g-title .f-game-doem{float: right;margin-right:20px; margin-top: 13px;}
+.g-title .f-game-doem ul li{padding: 0px 10px; float: left; width: 75px; text-align: center; height: 24px; line-height: 24px; font-size: 16px; font-weight: bold; cursor: pointer; background: url(../images/lbl_bg.png) no-repeat left center;padding-right:8px; padding-left:15px; }
+.g-title .f-game-doem ul li.m-hover{ color: #19b5fe; }
+.g-title .f-game-doem ul li:first-child{ background: none; }
+.g-gm-rank .f-game-doem ul li{ width:55px; }
+.g-yx-ico h4{background-position: -263px -258px;}
+.g-game-box{}
+.m-ar-ico{margin:15px 3px; height: 444px;}
+.m-ar-ico li {width: 80px;height: auto;float: left;padding: 12px 21px 12px 21px;display: inline; position: relative;}
+.m-ar-ico li a {width: 100%;height: auto;display: block;overflow: hidden;}
+.m-ar-ico li a img {width: 100%;height: 80px;border-radius: 16px;display: block;overflow: hidden;}
+.m-ar-ico li a strong {width: 100%;height: 18px;line-height: 18px;font-size: 14px;font-weight: normal;color: #333;text-align: center;margin: 8px 0 0;display: block;overflow: hidden;}
+.m-ar-ico li a em {width: 100%;height: 14px;line-height: 14px;font-size: 12px;font-weight: normal;color: #999;text-align: center;margin: 4px 0 0;display: block;overflow: hidden;}
+.g-azrj-ico h4{background-position: -263px -313px;}
+
+.m-ar-ico .m-ico-hover{ display: none; padding:0px 15px; position: absolute;top: 10px;left: 120px; width: 203px;height: 133px; border:1px solid #f60;box-shadow: 0px 0px 10px #f60;  background: #fff; z-index: 999;}
+.m-ar-ico .m-ico-hover i{ position: absolute; left:-6px;top:10px; display: block; width: 6px; height: 12px; background: url(../images/icobox.png) -287px -545px no-repeat;z-index: 99;}
+.m-ar-ico .m-ico-hover h4{ color: #ff6600; height: 28px; overflow:hidden; line-height: 28px; font-size: 16px; font-weight: normal; margin:10px 0px 5px;  }
+.m-ar-ico .m-ico-hover p{ margin-bottom:6px;  color: #999; line-height: 22px; height: 44px; overflow: hidden; }
+.m-ar-ico .m-ico-hover p span{ color: #555; }
+.m-ar-ico .m-ico-hover a{ display: block; height: 28px; width: 80px; color: #fff; text-align: center; line-height: 28px; font-size: 14px; background: #f60;border-radius:4px; }
+.m-ar-ico li:hover .m-ico-hover{ display: block; }
+.m-ar-ico li:hover a strong{color:#f60;}
+
+.g-gm-rank .g-rank-box{ overflow: hidden; margin: 18px 0;  border-left:1px solid #efefef; padding: 0px 20px;}
+.m-rank-list li {width: 100%;height:47px;border-bottom: 1px dotted #ccc;display: block;overflow: hidden;}
+.m-rank-list li i{ width:25px; height:25px; line-height:25px; font-size:16px; font-weight:normal; color:#fff; font-style:normal; text-align:center; background:#aaa; border-radius:4px; float:left; margin:11px 0 0 18px; display:inline; overflow:hidden}
+.m-rank-list li .g-rank-img{ width:75px; height:75px; float:left; margin:12px 12px 0 8px; display:inline; overflow:hidden}
+.m-rank-list li .g-rank-name{ width:160px; height:50px; line-height:50px; font-size:14px; font-weight:normal; color:#333; float:left; margin:0 0 0 12px; display:inline; overflow:hidden}
+.m-rank-list li strong{ width:auto; height:50px; line-height:50px; font-size:12px; font-weight:normal; color:#999; float:right; margin:0 18px 0 0; display:inline; overflow:hidden}
+.m-rank-list li .g-rank-xx{ display:none}
+.m-rank-list li .g-rank-img{ display:none}
+.m-rank-list li strong span{ display:none}
+
+.m-rank-list li.m-hover{ height:101px; background:#fffcfa;}
+.m-rank-list li.m-hover i{ height:75px; line-height:75px;}
+.m-rank-list li.m-hover .g-rank-img{ width:75px; height:75px; float:left; margin:12px 12px 0 8px; display:inline; overflow:hidden}
+.m-rank-list li.m-hover .g-rank-name{ width:136px; height:20px; line-height:20px; font-size:16px; color:#f60; margin:18px 0 0 0;}
+.m-rank-list li.m-hover strong{ width:136px; height:14px; line-height:14px; font-size:12px; color:#999; margin:11px 0 0 0; float:left}
+.m-rank-list li.m-hover strong span{ display:inline}
+.m-rank-list li.m-hover .g-rank-xx{ width:auto; height:14px; float:left; margin:7px 0 0 0; display:inline; overflow:hidden}
+/*----安卓游戏排行 end----*/
+
+.g-hot-project{ margin-top:15px; overflow: hidden;  }
+.g-hot-project .g-title{ width: 100%; }
+.g-title span{ cursor: pointer; width: 38px;height: 15px;float: right;margin: 22px 20px 0 0;display: inline;overflow: hidden;background:url(../images/icobox.png) no-repeat -4px -510px;  }
+.g-title span:hover{background:url(../images/icobox.png) no-repeat -163px -510px;}
+.g-title span a{ display: block;width: 38px;height: 15px; }
+.g-zt-ico h4{background-position: -7px -313px;}
+.g-hot-project .g-project-cont {width: 278px;height: 216px;float: left;border: 1px solid #eaeaea;margin: 11px 1px 15px 16px;;display: inline;overflow: hidden;}
+.g-hot-project .g-project-cont .g-project-img {width: 260px;height: 130px;float: left;margin: 10px 0 0 10px;display: inline;overflow: hidden;position: relative;zoom: 1;}
+.g-hot-project .g-project-cont .g-project-game {width: 129px;height: 50px;float: left;margin: 14px 0 0 10px;display: inline;overflow: hidden;}
+.g-hot-project .g-project-cont .g-project-img img {width: 100%;height: 130px;display: block;overflow: hidden;}
+.g-hot-project .g-project-cont .g-project-img strong{ width:100%; height:26px; line-height:26px; font-size:14px; font-weight:normal; color:#fff; text-shadow:1px 1px 2px #000; text-align:center; display:block; overflow:hidden; position:absolute; left:0; bottom:0; 
+background:-moz-linear-gradient(top,rgba(255,255,255,0),rgba(0, 0, 0, 0.7)); /*火狐*/
+background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0,rgba(255,255,255,0)), color-stop(1, rgba(0,0,0,0.7))); /*谷歌*/
+background: -ms-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(0,0,0,0.7) 100%); /*IE9+*/
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );/*IE9-*/}
+.g-hot-project .g-project-cont .g-project-game img {width: 50px;height: 50px;float: left;margin: 0 8px 0 0;display: inline;overflow: hidden;}
+.g-hot-project .g-project-cont .g-project-game strong {width: 65px;height: 16px;line-height: 16px;font-size: 14px;font-weight: normal;color: #333;float: left;margin: 0;display: inline;overflow: hidden;}
+.g-hot-project .g-project-cont .g-project-game b {width:65px;height: 14px;line-height: 14px;font-size: 12px;font-weight: normal;color: #999;margin: 0px 0 0 0;float: left;display: inline;overflow: hidden;}
+.g-hot-project .g-project-cont .g-project-game em {width: 40px;height: 20px;line-height: 20px;font-size: 12px;font-weight: normal;color: #fff;text-align: center;background: #f60;border-radius: 2px;float: left;margin: 0px 0 0 0;display: inline;overflow: hidden;}
+.g-hot-project .g-project-cont .g-project-img:hover strong{ color:#f60;}
+.g-hot-project .g-project-cont .g-project-game:hover strong{ color:#f60;}
+/*----游戏专题 end----*/
+
+.g-special{ overflow: hidden;margin-top:15px;  }
+.g-special .g-title{ width: 100%; }
+.g-rj-ico h4{background-position: -7px -368px;}
+.g-special .g-special-box{ position: relative; overflow: hidden; }
+.g-special .g-special-box b{display: block;top: 15px; position: absolute;font-family: serif;height: 133px;width: 30px;line-height: 133px;font-size: 30px;font-weight: bold;color: #999;text-align: center;background: #e6e6e6;cursor: pointer; position: absolute;}
+.g-special .g-special-box b.g-scroll-left{ left: 18px;}
+.g-special .g-special-box b.g-scroll-right{right: 18px; }
+.g-special .g-special-box b:hover{ color: #f60; }
+.g-special-box .m-rp-scroll {width:1100px;margin: 15px auto;overflow: hidden;position: relative;zoom: 1;}
+.g-special-box .m-rp-scroll li {width: 266px;height: 133px;float: left;margin:0 4px 0 5px;;display: inline;overflow: hidden;}
+.g-special-box .m-rp-scroll li a {width: 100%;height: 133px;display: block;overflow: hidden;position: relative;zoom: 1;}
+.g-special-box .m-rp-scroll li a img {width: 100%;height: 133px;display: block;overflow: hidden;}
+.g-special-box .m-rp-scroll li a strong{ width:100%; height:26px; line-height:26px; font-size:14px; font-weight:normal; color:#fff; text-shadow:1px 1px 2px #000; text-align:center; display:block; overflow:hidden; position:absolute; left:0; bottom:0; 
+background:-moz-linear-gradient(top,rgba(255,255,255,0),rgba(0, 0, 0, 0.7)); /*火狐*/
+background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0,rgba(255,255,255,0)), color-stop(1, rgba(0,0,0,0.7))); /*谷歌*/
+background: -ms-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(0,0,0,0.7) 100%); /*IE9+*/
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );/*IE9-*/}
+.g-special-box .m-rp-scroll li a:hover strong{ color:#f60;}
+/*----软件专题 end----*/
+
+.g-hot-class{overflow: hidden;margin-top:15px;}
+.g-hot-class .g-title{ width: 100%; }
+.g-hotgame-ico h4{background-position: -263px -368px;}
+.g-hot-class .g-hot-box{ overflow: hidden; margin: 18px 12px; }
+.g-hot-box .m-hot-list{ float: left; overflow: hidden; position: relative;margin: 0px 5px;}
+.g-hot-box .m-hot-list h4{ position: absolute;width: 136px;height: 35px;background: #fff;display: block;overflow: hidden;left: 74px;top: 0;z-index: 10; }
+.g-hot-box .m-hot-list h4 i {width: 1px;height: 20px;background: #eaeaea;float: left;margin: 8px 0 0;display: inline;overflow: hidden;}
+.g-hot-box .m-hot-list h4 strong {width: 110px;height: 35px;line-height: 35px;font-size: 16px;font-weight: normal;color: #fff;text-align: center;background: #19b5fe;float: left;margin: 0 12px;display: inline;overflow: hidden;}
+.g-hot-box .m-hot-list ul{width: 282px;height:349px;border: 1px solid #eaeaea;padding: 17px 0 0 0;margin: 17px 0 0 0;display: block;overflow: hidden;}
+.g-hot-box .m-hot-list ul li a {width: 100%;height: 49px;border-bottom: 1px solid #eee;display: block;overflow: hidden;}
+.g-hot-box .m-hot-list ul li a img {width: 32px;height: 32px;float: left;margin: 8px 0 0 9px;display: inline;overflow: hidden;}
+.g-hot-box .m-hot-list ul li a strong {width: 180px;height: 49px;line-height: 49px;font-size: 14px;font-weight: normal;color: #333;float: left;margin: 0 0 0 10px;display: inline;overflow: hidden;}
+.g-hot-box .m-hot-list ul li a b {width: 26px;height: 26px;float: right;margin: 11px 10px 0 0;background: url(../images/android-icon.png) no-repeat -555px 0;}
+.g-hot-box .m-hot-list ul li a:hover strong{ color:#f60;}
+.g-hot-box .m-hot-list ul li a:hover b{ background-position:-555px -101px;}
+
+.g-hotrj-ico h4{background-position: -4px -424px;}
+/*----热门游戏分类 end----*/
+
+.g-cms{overflow: hidden;margin-top:15px; padding:10px 20px; width: 1160px;}
+.g-cms .g-cms-cont{ width: 570px; overflow: hidden; }
+.m-jc-list{ overflow: hidden; padding: 20px 0px 20px 0px;border-top: 1px dashed #efefef;}
+.g-cms .g-cms-cont h4{ height: 45px; line-height: 45px;font-size: 20px;color: #333;font-weight: bold;position: relative; padding-left:20px; }
+.g-cms .g-cms-cont h4 i{ height: 25px; width: 6px;  display: block; position: absolute; background: #ff6528; top: 11px; left: 0px;}
+.g-cms .g-cms-cont h4 span{cursor: pointer; width: 38px;height: 15px;float: right;margin: 22px 0px 0 0;display: inline;overflow: hidden;background:url(../images/icobox.png) no-repeat -4px -510px;}
+.g-cms .g-cms-cont h4 span:hover{background:url(../images/icobox.png) no-repeat -163px -510px;}
+.g-cms .g-cms-cont h4 span a{ display: block;width: 38px;height: 15px; }
+.g-cms-cont ul li{ overflow: hidden; float: left; background: url("../images/icobox.png") no-repeat -77px -567px;padding-left: 15px;line-height: 35px;height: 35px;width: 320px;}
+.g-cms-cont ul li.m-spec {position: relative;margin-right: 15px;padding-left: 0;background: none;height:140px; width: 210px;}
+.g-cms-cont ul li a {color: #333;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;max-width: 100%;display:block; font-size: 14px;}
+.g-cms-cont ul li a:hover{color:#f60;transition:color 160ms ease 0s, background-color 200ms ease 0s, border-color 160ms ease 0s, transform 500ms ease 0s;}
+.g-cms-cont ul li.m-spec img{ width: 210px; height: 140px; display: block; -webkit-transition: .2s linear; -moz-transition: .2s linear; transition: .2s linear;}
+.g-cms-cont ul li.m-spec:hover img{ -webkit-transform: scale(1.05); -moz-transform: scale(1.05); transform: scale(1.05);}
+.g-cms-cont ul li a.m-jcName {position: absolute;bottom: 0;left: 0;background: #000;filter: Alpha(Opacity=70);opacity: 0.7;height: 35px;line-height: 35px;color: #fff;width: 190px;padding: 0 10px;text-align: center;}
+/*----手游攻略 应用教程 end----*/
+
+.g-link{ margin-top:15px; overflow: hidden;}
+.g-link-ico h4{background-position: -263px -424px;}
+.g-link .g-title{ width: 100%; }
+.g-link .g-link-box{ overflow: hidden; margin:10px 20px;  }
+.g-link .g-link-box a {color: #555;line-height: 28px;display: inline-block;*display: inline;*zoom: 1;margin:0px 8px; font-size: 14px;}
+.g-link .g-link-box a:hover{color:#f60;}
+/*----友情链接 end----*/
+
+
+/*----安卓列表页----*/
+.g-main-bg{ background-color: #fff; box-shadow: 0px 1px 3px #ccc;}
+.g-nav { height: 16px;line-height: 16px;font-size: 14px; font-weight: normal;color: #333;padding: 14px 0 11px; }
+.g-nav span { float: left; width: 16px; height: 16px; background: url(https://www.qqtn.com/skin/new2016/images/ku-icon.png) no-repeat;margin:0px 10px 0 0 ; }
+
+.g-hotico{ overflow: hidden;padding:20px 20px 10px 20px; position: relative; width: 1160px;}
+.g-hotico span{ position: absolute; left: 0px; top: 0px; display: block; background: url(../images/g-hotico.png) no-repeat; width: 50px; height: 50px; }
+.g-hotico ul li {width:88px;height: auto;float: left;margin: 12px 8px 12px 19px;display: inline;overflow: hidden;}
+.g-hotico ul li a {width: 100%;height: auto;display: block;overflow: hidden;}
+.g-hotico ul li a img{width: 100%;height:88px;border-radius: 12px;display: block;overflow: hidden;}
+.g-hotico ul li a strong {width: 100%;height: 20px;line-height: 20px;font-size: 14px;font-weight: normal;color: #555;text-align: center;margin: 6px 0 0 0;display: block;overflow: hidden;}
+.g-hotico ul li a:hover strong{ color:#f40;}
+.g-hotico ul li a b{ display: block; width:45px; height:45px;padding:21.5px;border-radius: 12px; background-color: #f60; color: #fff; font-size: 16px; font-weight: normal; text-align: center; }
+.g-hotico ul li a b{ display: none; }
+.g-hotico ul li:hover a b{ display: block; }
+.g-hotico ul li:hover a img{ display: none; }
+
+.g-class{ overflow: hidden;border-top: 1px dashed #f5f5f5;padding:10px 0 15px 0; margin: 0px 30px;}
+.g-class ul li{ float: left; }
+.g-class ul li a font{ display: none; }
+.g-class a{font-size: 14px;border-radius: 5px; color: #666;float: left; width: 85px; display: block; text-align: center; margin: 5px 5px 0px 5px; height: 32px; line-height: 32px;}
+.g-class a.m-hover{ background-color: #19b5fe; color: #fff;border-radius: 5px; }
+.g-class a:hover{background-color: #19b5fe; color: #fff;border-radius: 5px;}
+.g-class ul li.m-hover a{background-color: #19b5fe; color: #fff;border-radius: 5px;}
+
+.g-class-ios{ overflow: hidden;border-top: 1px dashed #f5f5f5;padding:10px 0 15px 0; margin: 0px 30px;}
+.g-class-ios ul li{ float: left; }
+.g-class-ios ul li a font{ display: none; }
+.g-class-ios a{font-size: 14px;border-radius: 5px; color: #666;float: left; width: 104px; display: block; text-align: center; margin: 5px 5px 0px 5px; height: 32px; line-height: 32px;}
+.g-class-ios a.m-hover{ background-color: #19b5fe; color: #fff;border-radius: 5px; }
+.g-class-ios a:hover{background-color: #19b5fe; color: #fff;border-radius: 5px;}
+.g-class-ios ul li.m-hover a{background-color: #19b5fe; color: #fff;border-radius: 5px;}
+
+/*热门推荐 分类栏目 结束end*/
+
+.g-azlist-main{ overflow: hidden; margin-top:15px;  }
+.m-softlist{ width: 935px; overflow: hidden;}
+
+.m-tith4 {height: 24px;line-height: 24px;font-size: 18px;color: #333;text-indent: 15px;margin: 15px 0 0;}
+.m-tith4 i {width: 5px;height: 24px;background: #00aaff;float: left;}
+.m-tith4 span{ float: right;}
+.m-tith4 span a{ font-size: 16px; background: url(../images/lbl_bg.png) no-repeat left center; padding: 0px 24px;}
+.m-tith4 span a.m-click{color: #19b5fe;}
+.m-tith4 span a:hover{color: #19b5fe;}
+.m-tith4 span a:first-child {background: none; padding: 0px 12px;}
+.m-tith4 span a.m-hover{color: #19b5fe;}
+
+.m-softlist ul{ overflow: hidden;  margin:15px 0px 15px 16px; }
+.m-softlist ul li{ float: left; width: 218px; border: 1px solid #efefef; margin:0px 8px 8px 0px; position: relative;overflow: hidden; }
+.m-softlist ul li .m-ar{ padding: 15px; overflow: hidden; }
+.m-softlist ul li .m-ar:hover{ cursor: pointer; }
+.m-softlist ul li .m-ar i{ display: block; height: 100px; width: 100px;margin:21px auto 34px;}
+.m-softlist ul li .m-ar i img{height: 100px; width: 100px;box-shadow: 1px 1px 1px #ededed;border-radius: 18px;}
+.m-softlist ul li .m-ar h4{ height: 38px; line-height: 38px;text-align: center;font-size: 16px; font-weight: bold; color: #333; overflow: hidden;}
+.m-softlist ul li .m-ar p.m-time{line-height: 22px; width: 155px; margin: 0px auto; height: 22px; overflow: hidden; padding-bottom: 8px;}
+.m-softlist ul li .m-ar p.m-time font{line-height: 22px; color: #666; width: 70px; display: block;float: left;height: 22px;font-size:12px; margin-left: 0px;}
+.m-softlist ul li .m-ar p.m-time span{ display: block;float: left; width: 78px; height: 22px;}
+.m-softlist ul li .m-ar p.m-time span.star_leve1{ background: url(../images/s1.gif) no-repeat left 3px; }
+.m-softlist ul li .m-ar p.m-time span.star_leve2{ background: url(../images/s2.gif) no-repeat left 3px; }
+.m-softlist ul li .m-ar p.m-time span.star_leve3{ background: url(../images/s3.gif) no-repeat left 3px; }
+.m-softlist ul li .m-ar p.m-time span.star_leve4{ background: url(../images/s4.gif) no-repeat left 3px; }
+.m-softlist ul li .m-ar p.m-time span.star_leve5{ background: url(../images/s5.gif) no-repeat left 3px; }
+.m-softlist ul li .m-ar p.m-cbjtxt{ line-height: 25px;height: 50px; overflow: hidden; font-size: 14px;color: #666;}
+.m-softlist ul li .m-ar p.m-cbjtxt font{ color: #f65555;font-size: 14px; }
+
+.m-softlist ul li .m-hover{ overflow: hidden; position: absolute;left: 0;top: 100%; background: #fff;width: 100%; height: 100%;-webkit-transition: top .4s; -moz-transition: top .4s; -ms-transition: top .4s; -o-transition: top .4s; transition: top .4s; }
+.m-softlist ul li .m-hover h4{ height: 40px; line-height: 40px; overflow: hidden;background-color: #19b5fe;  text-align: center; padding: 0px 15px; margin-bottom:8px; }
+.m-softlist ul li .m-hover h4 a{color: #fff;font-weight: bold;font-size: 16px;}
+.m-softlist ul li .m-hover p{height: 28px; overflow:hidden;padding: 0px 15px; color: #999999;}
+.m-softlist ul li .m-hover p font{ display: block; float: left; width: 86px; font-size:12px;line-height: 28px;height: 28px; overflow:hidden;word-break: break-all;}
+.m-softlist ul li .m-hover p span{display: block;float:right; width: 86px; font-size:12px;line-height: 28px;height: 28px; overflow:hidden;word-break: break-all;}
+.m-softlist ul li .m-hover p.m-btn{ margin-top:10px;  }
+.m-softlist ul li .m-hover p.m-btn a{ display: block; width: 88px; height: 25px;border: 1px solid #f55555; color: #f55555; text-align: center; line-height: 25px; margin:0px auto ;}
+.m-softlist ul li .m-hover p.m-btn a:hover{ background: #f55555 ; color: #fff; }
+.m-softlist ul li .m-hover i{ width: 130px; height: 130px; display: block; margin: 0px auto; }
+.m-softlist ul li .m-hover i img{ width: 130px; height: 130px; }
+.m-softlist ul li .m-hover p.m-smxz{ text-align: center; height: 28px;line-height: inherit; }
+.m-softlist ul li:hover .m-hover{top: 0px;}
+
+.m-softlist ul li .m-mouse{overflow: hidden; position: absolute;left: 0;top: 100%; background: #fff;width: 100%; height: 100%;-webkit-transition: top .4s; -moz-transition: top .4s; -ms-transition: top .4s; -o-transition: top .4s; transition: top .4s;}
+.m-softlist ul li .m-ar-list p{overflow: hidden;color: #999999;}
+.m-softlist ul li .m-ar-list p font {display: block;float: left;width: 86px;font-size: 12px;line-height: 25px;height: 25px; overflow:hidden;word-break: break-all; margin-left:16px;}
+.m-softlist ul li .m-ar-list p span {display: block;float: right;width: 86px;font-size: 12px;line-height: 25px;height: 25px; overflow:hidden;word-break: break-all;}
+.m-softlist ul li .m-mouse h4{ height: 40px; line-height: 40px; overflow: hidden;background-color: #19b5fe;  text-align: center; padding: 0px 15px; margin-bottom:3px; }
+.m-softlist ul li .m-mouse h4 a{color: #fff;font-weight: bold;font-size: 16px;}
+.m-softlist ul li .m-mouse .m-resver{ height:28px; line-height:28px; overflow:hidden;padding:0px 15px;font-size: 14px;color: #999; margin:3px 0px 3px 0;}
+.m-softlist ul li .m-mouse .m-cbjtxt{ line-height:28px; height:112px; overflow:hidden; padding:0px 15px;font-size: 14px;color: #666;}
+.m-softlist ul li .m-mouse .m-cbjtxt font{color: #f65555;font-size: 14px;}
+.m-softlist ul li .m-mouse p.m-btn{ margin-top:20px;  }
+.m-softlist ul li .m-mouse p.m-btn a{ display: block; width: 88px; height: 24px;border: 1px solid #f55555; color: #f55555; text-align: center; line-height: 24px; margin:0px auto ;}
+.m-softlist ul li .m-mouse p.m-btn a:hover{ background: #f55555 ; color: #fff; }
+.m-softlist ul li:hover .m-mouse{top:0px;}
+/*软件列表 结束end*/
+
+.m-sjright { width: 250px; overflow: hidden; }
+.m-sjright .m-sjph { overflow: hidden; margin-bottom: 15px;}
+.m-sjright .m-sjph ul {width: 220px;height: auto;margin: 12px auto 0;display: block;overflow: hidden;}
+.m-sjright .m-sjph ul{ width:220px; height:auto; margin:12px auto 0; display:block; overflow:hidden}
+.m-sjright .m-sjph ul li{ width:100%; height:39px; border-bottom:1px dashed #eee; display:block; overflow:hidden}
+.m-sjright .m-sjph ul li a{ width:100%; height:auto; display:block; overflow:hidden;}
+.m-sjright .m-sjph ul li a i{ width:20px; height:20px; line-height:20px; font-size:12px; font-weight:normal; color:#fff; text-align:center; font-style:normal; background:#b4b4b4; float:left; margin:9px 0 0; display:inline; overflow:hidden}
+.m-sjright .m-sjph ul li a img,.m-sjright .m-sjph ul li a b{ display:none}
+.m-sjright .m-sjph ul li a strong{ width:180px; height:39px; line-height:39px; font-size:14px; font-weight:normal; color:#333; float:left; margin:0 0 0 10px; display:inline; overflow:hidden}
+.m-sjright .m-sjph ul li a em{ width:52px; height:39px; line-height:40px; font-size:12px; font-weight:normal; color:#999; float:right; margin:0 0 0 0; display:inline; overflow:hidden}
+.m-sjright .m-sjph ul li a:hover strong{ color:#f44}
+.m-sjright .m-sjph ul li:last-of-type { border-bottom: none; }
+.m-sjright .m-sjph ul li.f-t3 a i{background:#f77}
+
+.m-sjright .m-sjph ul .f-ix{ height:auto; padding:0 0 10px 0;}
+.m-sjright .m-sjph ul .f-ix img{ width:70px; height:70px; border-radius:12px; float:left; margin:9px 0 0 10px; display:inline; overflow:hidden}
+.m-sjright .m-sjph ul .f-ix strong{ width:104px; height:16px; line-height:16px; font-size:14px; font-weight:normal; color:#f77; margin:14px 0 0 10px;}
+.m-sjright .m-sjph ul .f-ix b{ width:75px; height:28px; line-height:28px; font-size:12px; font-weight:normal; color:#fff; text-align:center; background:#f77; border-radius:4px; float:left; margin:9px 0 0 10px; display:inline; overflow:hidden}
+.m-sjright .m-sjph ul li.f-ix a em{ display:none}
+.m-sjright .m-sjph ul .f-ix a i{ background: #ff7777 ; }
+
+.m-sjright .m-sjhj { overflow: hidden; }
+.m-sjright .m-sjhj ul{  height:auto; margin:auto; display:block; overflow:hidden; padding-bottom:15px; }
+.m-sjright .m-sjhj ul li{ width: 220px; height:110px; padding:5px 5px 0px 5px; margin:10px 10px 0px 10px; display:block; overflow:hidden}
+.m-sjright .m-sjhj ul li a{ width:100%; height:110px; display:block; overflow:hidden; position:relative; zoom:1}
+.m-sjright .m-sjhj ul li a img{ width:100%; height:110px; display:block; overflow:hidden}
+.m-sjright .m-sjhj ul li a strong{ width:100%; height:26px; line-height:26px; background:rgba(0,0,0,0.5); font-size:14px; font-weight:normal; color:#fff; text-align:center; display:block; overflow:hidden; position:absolute; left:0; bottom:0;}
+.m-sjright .m-sjhj ul li a:hover{ box-shadow:0px 0px 5px #f77;}
+.m-sjright .m-sjhj ul li a:hover strong{ background:#f77}
+/*本类下载排行 同类最新合集 结束end*/
+
+
