@@ -43,7 +43,7 @@ function newmessage() {
 
 //for big5
 //s = simplified 简体, t = traditional 繁体, n = normal 正常显示
-var zh_default = 'n'; //默认
+var zh_default = 't'; //默认
 var zh_choose = ''; 
 var zh_expires = 365; 
 var zh_class = 'zh_click'; 
