@@ -1,4 +1,173 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(5($){$.J.L=5(r){8 1={d:0,A:0,b:"h",v:"N",3:4};6(r){$.D(1,r)}8 m=9;6("h"==1.b){$(1.3).p("h",5(b){8 C=0;m.t(5(){6(!$.k(9,1)&&!$.l(9,1)){$(9).z("o")}j{6(C++>1.A){g B}}});8 w=$.M(m,5(f){g!f.e});m=$(w)})}g 9.t(5(){8 2=9;$(2).c("s",$(2).c("i"));6("h"!=1.b||$.k(2,1)||$.l(2,1)){6(1.u){$(2).c("i",1.u)}j{$(2).K("i")}2.e=B}j{2.e=x}$(2).T("o",5(){6(!9.e){$("<V />").p("X",5(){$(2).Y().c("i",$(2).c("s"))[1.v](1.Z);2.e=x}).c("i",$(2).c("s"))}});6("h"!=1.b){$(2).p(1.b,5(b){6(!2.e){$(2).z("o")}})}})};$.k=5(f,1){6(1.3===E||1.3===4){8 7=$(4).F()+$(4).O()}j{8 7=$(1.3).n().G+$(1.3).F()}g 7<=$(f).n().G-1.d};$.l=5(f,1){6(1.3===E||1.3===4){8 7=$(4).I()+$(4).U()}j{8 7=$(1.3).n().q+$(1.3).I()}g 7<=$(f).n().q-1.d};$.D($.P[\':\'],{"Q-H-7":"$.k(a, {d : 0, 3: 4})","R-H-7":"!$.k(a, {d : 0, 3: 4})","S-y-7":"$.l(a, {d : 0, 3: 4})","q-y-7":"!$.l(a, {d : 0, 3: 4})"})})(W);',62,62,'|settings|self|container|window|function|if|fold|var|this||event|attr|threshold|loaded|element|return|scroll|src|else|belowthefold|rightoffold|elements|offset|appear|bind|left|options|original|each|placeholder|effect|temp|true|of|trigger|failurelimit|false|counter|extend|undefined|height|top|the|width|fn|removeAttr|lazyload|grep|show|scrollTop|expr|below|above|right|one|scrollLeft|img|jQuery|load|hide|effectspeed'.split('|'),0,{}))
-jQuery(document).ready(function(){
-	jQuery("img").lazyload({placeholder:"",effect:"fadeIn"})
-	});
+/*!
+ * Lazy Load - JavaScript plugin for lazy loading images
+ *
+ * Copyright (c) 2007-2017 Mika Tuupola
+ *
+ * Licensed under the MIT license:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *
+ * Project home:
+ *   https://appelsiini.net/projects/lazyload
+ *
+ * Version: 2.0.0-beta.2
+ *
+ */
+
+(function (root, factory) {
+    if (typeof exports === "object") {
+        module.exports = factory(root);
+    } else if (typeof define === "function" && define.amd) {
+        define([], factory(root));
+    } else {
+        root.LazyLoad = factory(root);
+    }
+}) (typeof global !== "undefined" ? global : this.window || this.global, function (root) {
+
+    "use strict";
+
+    const defaults = {
+        src: "data-src",
+        srcset: "data-srcset",
+        selector: ".lazyload"
+    };
+
+    /**
+    * Merge two or more objects. Returns a new object.
+    * @private
+    * @param {Boolean}  deep     If true, do a deep (or recursive) merge [optional]
+    * @param {Object}   objects  The objects to merge together
+    * @returns {Object}          Merged values of defaults and options
+    */
+    const extend = function ()  {
+
+        let extended = {};
+        let deep = false;
+        let i = 0;
+        let length = arguments.length;
+
+        /* Check if a deep merge */
+        if (Object.prototype.toString.call(arguments[0]) === "[object Boolean]") {
+            deep = arguments[0];
+            i++;
+        }
+
+        /* Merge the object into the extended object */
+        let merge = function (obj) {
+            for (let prop in obj) {
+                if (Object.prototype.hasOwnProperty.call(obj, prop)) {
+                    /* If deep merge and property is an object, merge properties */
+                    if (deep && Object.prototype.toString.call(obj[prop]) === "[object Object]") {
+                        extended[prop] = extend(true, extended[prop], obj[prop]);
+                    } else {
+                        extended[prop] = obj[prop];
+                    }
+                }
+            }
+        };
+
+        /* Loop through each object and conduct a merge */
+        for (; i < length; i++) {
+            let obj = arguments[i];
+            merge(obj);
+        }
+
+        return extended;
+    };
+
+    function LazyLoad(images, options) {
+        this.settings = extend(defaults, options || {});
+        this.images = images || document.querySelectorAll(this.settings.selector);
+        this.observer = null;
+        this.init();
+    }
+
+    LazyLoad.prototype = {
+        init: function() {
+
+            /* Without observers load everything and bail out early. */
+            if (!root.IntersectionObserver) {
+                this.loadImages();
+                return;
+            }
+
+            let self = this;
+            let observerConfig = {
+                root: null,
+                rootMargin: "0px",
+                threshold: [0]
+            };
+
+            this.observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function (entry) {
+                    if (entry.intersectionRatio > 0) {
+                        self.observer.unobserve(entry.target);
+                        let src = entry.target.getAttribute(self.settings.src);
+                        let srcset = entry.target.getAttribute(self.settings.srcset);
+                        if ("img" === entry.target.tagName.toLowerCase()) {
+                            if (src) {
+                                entry.target.src = src;
+                            }
+                            if (srcset) {
+                                entry.target.srcset = srcset;
+                            }
+                        } else {
+                            entry.target.style.backgroundImage = "url(" + src + ")";
+                        }
+                    }
+                });
+            }, observerConfig);
+
+            this.images.forEach(function (image) {
+                self.observer.observe(image);
+            });
+        },
+
+        loadAndDestroy: function () {
+            if (!this.settings) { return; }
+            this.loadImages();
+            this.destroy();
+        },
+
+        loadImages: function () {
+            if (!this.settings) { return; }
+
+            let self = this;
+            this.images.forEach(function (image) {
+                let src = image.getAttribute(self.settings.src);
+                let srcset = image.getAttribute(self.settings.srcset);
+                if ("img" === image.tagName.toLowerCase()) {
+                    if (src) {
+                        image.src = src;
+                    }
+                    if (srcset) {
+                        image.srcset = srcset;
+                    }
+                } else {
+                    image.style.backgroundImage = "url(" + src + ")";
+                }
+            });
+        },
+
+        destroy: function () {
+            if (!this.settings) { return; }
+            this.observer.disconnect();
+            this.settings = null;
+        }
+    };
+
+    root.lazyload = function(images, options) {
+        return new LazyLoad(images, options);
+    };
+
+    if (root.jQuery) {
+        const $ = root.jQuery;
+        $.fn.lazyload = function (options) {
+            options = options || {};
+            options.attribute = options.attribute || "data-src";
+            new LazyLoad($.makeArray(this), options);
+            return this;
+        };
+    }
+
+    return LazyLoad;
+});
