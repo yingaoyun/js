@@ -1366,6 +1366,7 @@ display:block;
 }
 .fr, .row .fr {
   float: right;
+  margin-right: 10px;
 }
 .btn-addbs {
   display: block;
