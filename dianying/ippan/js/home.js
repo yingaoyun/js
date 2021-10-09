@@ -81,7 +81,7 @@ var MAC={
     'Adaptive':function(){
         if(maccms.mob_status=='1' && maccms.url != maccms.wapurl){
             if(document.domain ==maccms.url && MAC.UserAgent.mobile){
-                    location.href = location.href.replace(maccms.url,maccms.wapurl);
+                location.href = location.href.replace(maccms.url,maccms.wapurl);
             }
             else if(document.domain ==maccms.wapurl && !MAC.UserAgent.mobile){
                 location.href = location.href.replace(maccms.wapurl,maccms.url);
@@ -456,7 +456,7 @@ var MAC={
                 }
             }
 
-            html = '<i class="arrow_3-SGO"></i><dl class="rec-list_2b8oe">';
+            html = '<i class="arrow_3-SGO triangle"></i><dl class="rec-list_2b8oe">';
             html +='<dt><i class="fa fa-trash"></i><a target="_self" href="javascript:void(0)" onclick="MAC.History.Clear();">清空</a></dt>';
             if(jsondata.length > 0){
                 for($i=0; $i<jsondata.length; $i++){
@@ -670,24 +670,20 @@ var MAC={
                 MAC.Pop.Remove();
             }
             $('body').append('<div class="flavr-container modal mac_pop_msg"><div class="flavr-overlay"></div><div class="flavr-fixer"><div class="flavr-outer"><div class="flavr-content"><div class="flavr-message pop-msg"><i class="fa fa-bell-o"></i></div></div></div></div></div>');
-			
-
-			
-			
             $('.mac_pop_msg .pop_close').click(function(){
                 $('.mac_pop_msg').remove();
             });
 
             $('.mac_pop_msg .pop-msg').html($msg);
-			$('.mac_pop_msg').show();
-            setTimeout(MAC.Pop.RemoveMsg,$timeout);	
+            $('.mac_pop_msg').show();
+            setTimeout(MAC.Pop.RemoveMsg,$timeout);
         },
         'Show':function($w,$h,$title,$url,$callback) {
             if($('.mac_pop_bg').length !=1) {
                 MAC.Pop.Remove();
             }
 
-            $('body').append('<div class="mac_pop_bg"></div><div class="mac_pop"><div class="pop_top"><h2></h2><span class="pop_close fa fa-remove"></span></div><div class="line"></div><div class="pop_content"></div></div>');
+            $('body').append('<div class="mac_pop_bg"></div><div class="mac_pop box topfadeInUp animated"><div class="pop_top"><h2></h2><span class="pop_close fa fa-remove"></span></div><div class="line"></div><div class="pop_content"></div></div>');
             $('.mac_pop .pop_close').click(function(){
                 $('.mac_pop_bg,.mac_pop').remove();
             });
@@ -711,14 +707,14 @@ var MAC={
         'Check':function(o){
             var $that = $(o);
             if($that.attr("data-id")){
-                    MAC.Ajax(maccms.path + '/index.php/ajax/pwd.html?id=' + $that.attr("data-id") + '&mid=' + $that.attr("data-mid") + '&type=' + $that.attr("data-type") + '&pwd='+ $that.parents('form').find('input[name="pwd"]').val() ,'get','json','',function(r){
-                        $that.addClass('disabled');
-                        MAC.Pop.Msg(300, 50, r.msg, 2000);
-                        if (r.code == 1) {
-                            location.reload();
-                        }
-                        $that.removeClass('disabled');
-                    });
+                MAC.Ajax(maccms.path + '/index.php/ajax/pwd.html?id=' + $that.attr("data-id") + '&mid=' + $that.attr("data-mid") + '&type=' + $that.attr("data-type") + '&pwd='+ $that.parents('form').find('input[name="pwd"]').val() ,'get','json','',function(r){
+                    $that.addClass('disabled');
+                    MAC.Pop.Msg(300, 50, r.msg, 2000);
+                    if (r.code == 1) {
+                        location.reload();
+                    }
+                    $that.removeClass('disabled');
+                });
 
             }
         }
@@ -899,5 +895,3 @@ $(function(){
     //定时任务初始化
     MAC.Timming();
 });
-console.log("\n %c 短视1.0.1 pc版 授权号 : ipian.net 官网 %c http://www.cgzyb.com \n\n","color: #fadfa3; background: #030307; padding:5px 0;","background: #fadfa3; padding:5px 0;");
-console.log("\n %c 互站等地出现仿制版与正版价格一样，请认准官网，以免花同样钱买到仿制版上当受骗。草根客服QQ:602524950,其他均属假冒。 \n\n","background: #fadfa3; padding:5px 0;");
